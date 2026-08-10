@@ -1,0 +1,48 @@
+---
+const features = [
+  {
+    title: "Real-time analytics",
+    description: "Gain actionable insights with our real-time analytics feature",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dca_Features%20one%20-%20image%20one.webp",
+    imageClass: "bg-[#f3f4f2]",
+  },
+  {
+    title: "Customizable reports",
+    description: "Streamline your financial processes with automated workflows",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcb_Features%20one%20-%20image%20two.webp",
+    imageClass: "bg-[#f3f4f2]",
+  },
+  {
+    title: "Mobile accessibility",
+    description: "Manage your finances on the go with our mobile-friendly platform",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcc_Features%20one%20-%20image%20three.webp",
+    imageClass: "bg-[#f3f4f2]",
+  },
+  {
+    title: "Enhanced security",
+    description: "Protect your sensitive financial data with our state-of-the-art security measures",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcd_Features%20one%20-%20image%20four.webp",
+    imageClass: "bg-[#f3f4f2]",
+  },
+];
+---
+<section id="features-grid" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="text-[#131313] font-normal">• Features</div>
+    <h2 class="text-[60px] font-normal tracking-[-3.6px] leading-[1.1] max-w-[800px] mt-4 mb-16">Core features that set us apart from the competition</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {features.map((f) => (
+        <div class="bg-[#f3f4f2] p-8 rounded-[20px] flex flex-col gap-6 hover-lift">
+          <div class="rounded-[12px] overflow-hidden bg-white aspect-video">
+            <img src={f.image} alt={f.title} class="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h3 class="text-[24px] font-normal leading-[1.2] text-[#131313] mb-3">{f.title}</h3>
+            <p class="text-[16px] text-[#4e4e4e]">{f.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

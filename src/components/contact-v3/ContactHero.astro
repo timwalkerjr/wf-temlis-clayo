@@ -1,0 +1,40 @@
+---
+---
+<section id="contact-hero" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-20">
+    <div class="relative rounded-[24px] overflow-hidden mb-16 min-h-[400px] lg:min-h-[500px]">
+      <img
+        src="https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0df5_Contact%20three%20-%20main%20image.webp"
+        alt="Contact"
+        class="w-full h-full object-cover absolute inset-0"
+      />
+      <div class="relative z-10 flex items-end min-h-[400px] lg:min-h-[500px] p-10 lg:p-16">
+        <div class="bg-white/90 backdrop-blur rounded-[20px] p-8 max-w-[420px]">
+          <h1 class="text-[48px] lg:text-[60px] leading-[1.1] tracking-[-3.6px] font-normal text-[#131313]">Get in touch</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-[680px] mx-auto">
+      <div class="bg-[#f3f4f2] rounded-[24px] p-10">
+        <form class="flex flex-col gap-6" data-ps="contact-v3-form">
+          <div class="flex flex-col gap-2">
+            <label for="contact-v3-name" class="text-[14px] font-medium text-[#131313]">Your Name</label>
+            <input type="text" id="contact-v3-name" name="name" placeholder="" class="bg-white border border-[#d4d4d4] rounded-[12px] px-5 py-4 text-[16px] text-[#131313] focus:outline-none focus:border-[#5F58FF] transition-colors" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="contact-v3-email" class="text-[14px] font-medium text-[#131313]">Email address</label>
+            <input type="email" id="contact-v3-email" name="email" placeholder="" class="bg-white border border-[#d4d4d4] rounded-[12px] px-5 py-4 text-[16px] text-[#131313] focus:outline-none focus:border-[#5F58FF] transition-colors" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="contact-v3-message" class="text-[14px] font-medium text-[#131313]">Message</label>
+            <textarea id="contact-v3-message" name="message" rows="6" placeholder="" class="bg-white border border-[#d4d4d4] rounded-[12px] px-5 py-4 text-[16px] text-[#131313] resize-none focus:outline-none focus:border-[#5F58FF] transition-colors"></textarea>
+          </div>
+          <button type="submit" class="bg-[#131313] hover:bg-[#232323] text-white rounded-[12px] px-6 py-4 text-[16px] font-medium transition-colors self-start">Send Message</button>
+          <div class="text-[14px] text-[#4e4e4e] success-msg hidden">Thank you! Your submission has been received!</div>
+          <div class="text-[14px] text-[#ff4d4d] error-msg hidden">Oops! Something went wrong while submitting the form.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

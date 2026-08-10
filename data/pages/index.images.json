@@ -1,0 +1,526 @@
+[
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da6_Clayo-icon.svg",
+    "altText": "",
+    "context": "More Links",
+    "isLogo": true,
+    "originalWidth": 0,
+    "originalHeight": 0,
+    "hasTransparency": false,
+    "variants": []
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da7_hero-one-image-one-100.webp",
+    "altText": "",
+    "context": "Section: Build & growth with scalable tools | 10K+",
+    "isLogo": false,
+    "originalWidth": 100,
+    "originalHeight": 100,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da7_hero-one-image-one-100.webp",
+        "width": 100
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da8_hero-one-image-two-100.webp",
+    "altText": "",
+    "context": "Section: Build & growth with scalable tools | 10K+",
+    "isLogo": false,
+    "originalWidth": 100,
+    "originalHeight": 100,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da8_hero-one-image-two-100.webp",
+        "width": 100
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da9_hero-one-image-three-100.webp",
+    "altText": "",
+    "context": "Section: Build & growth with scalable tools | 10K+",
+    "isLogo": false,
+    "originalWidth": 100,
+    "originalHeight": 100,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da9_hero-one-image-three-100.webp",
+        "width": 100
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc0_hero-one-main-image-768.webp",
+    "altText": "",
+    "context": "Section: Build & growth with scalable tools | About Clayo",
+    "isLogo": false,
+    "originalWidth": 800,
+    "originalHeight": 936,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc0_hero-one-main-image-768.webp",
+        "width": 768
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc0_hero-one-main-image-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc0_hero-one-main-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc2_hero-one-balance-320.webp",
+    "altText": "",
+    "context": "Section: Build & growth with scalable tools | About Clayo",
+    "isLogo": false,
+    "originalWidth": 522,
+    "originalHeight": 452,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc2_hero-one-balance-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df9_Frame-2147226953-1024.webp",
+    "altText": "",
+    "context": "Section: Make payment easy, simplify your finance | 10+",
+    "isLogo": false,
+    "originalWidth": 1140,
+    "originalHeight": 516,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df9_Frame-2147226953-1024.webp",
+        "width": 1024
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df9_Frame-2147226953-768.webp",
+        "width": 768
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df9_Frame-2147226953-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df9_Frame-2147226953-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dfa_Finance-image-three-320.webp",
+    "altText": "",
+    "context": "Section: Make payment easy, simplify your finance | 95%",
+    "isLogo": false,
+    "originalWidth": 500,
+    "originalHeight": 960,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dfa_Finance-image-three-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df8_Frame-2147226954-320.webp",
+    "altText": "",
+    "context": "Section: Make payment easy, simplify your finance | Expertise",
+    "isLogo": false,
+    "originalWidth": 554,
+    "originalHeight": 516,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df8_Frame-2147226954-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc4_Dashboard-one-image-one-320.webp",
+    "altText": "",
+    "context": "Section: Empowering and strengthening your financial success | User-friendly design for effortless navigation and usability",
+    "isLogo": false,
+    "originalWidth": 500,
+    "originalHeight": 421,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc4_Dashboard-one-image-one-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc5_Dashboard-one-image-two-320.webp",
+    "altText": "",
+    "context": "Section: Intuitive user interface | Streamlined workflows to increase efficiency and reduce manual tasks",
+    "isLogo": false,
+    "originalWidth": 618,
+    "originalHeight": 565,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc5_Dashboard-one-image-two-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc6_Dashboard-one-image-three-320.webp",
+    "altText": "",
+    "context": "Section: Automated processes | Protect your data with top-notch security protocols",
+    "isLogo": false,
+    "originalWidth": 396,
+    "originalHeight": 484,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc6_Dashboard-one-image-three-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc7_Dashboard-one-image-four-211.webp",
+    "altText": "",
+    "context": "Section: Automated processes | Protect your data with top-notch security protocols",
+    "isLogo": false,
+    "originalWidth": 211,
+    "originalHeight": 97,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc7_Dashboard-one-image-four-211.webp",
+        "width": 211
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc9_Dashboard-one-image-sixe-320.webp",
+    "altText": "",
+    "context": "Section: Advanced security features | Safeguard your purchases with encrypted transactions and fraud detection",
+    "isLogo": false,
+    "originalWidth": 618,
+    "originalHeight": 561,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc9_Dashboard-one-image-sixe-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dca_Features-one-image-one-320.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | \"Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insi",
+    "isLogo": false,
+    "originalWidth": 522,
+    "originalHeight": 583,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dca_Features-one-image-one-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcb_Features-one-image-two-320.webp",
+    "altText": "",
+    "context": "Section: Real-time analytics | \"Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insi",
+    "isLogo": false,
+    "originalWidth": 500,
+    "originalHeight": 428,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcb_Features-one-image-two-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcc_Features-one-image-three-640.webp",
+    "altText": "",
+    "context": "Section: Customizable reports | \"Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insi",
+    "isLogo": false,
+    "originalWidth": 750,
+    "originalHeight": 574,
+    "hasTransparency": false,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcc_Features-one-image-three-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcc_Features-one-image-three-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcd_Features-one-image-four-300.webp",
+    "altText": "",
+    "context": "Section: Mobile accessibility | \"Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insi",
+    "isLogo": false,
+    "originalWidth": 300,
+    "originalHeight": 105,
+    "hasTransparency": true,
+    "contentTone": "light",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcd_Features-one-image-four-300.webp",
+        "width": 300
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dce_Testimonials-use-one-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | Sarah Thompson",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dce_Testimonials-use-one-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddd_Testimonials-use-three-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | David Wilson",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddd_Testimonials-use-three-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcf_Testimonials-use-two-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | Emily Harris",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcf_Testimonials-use-two-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dd0_Testimonials-use-four-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | James O'Connor",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dd0_Testimonials-use-four-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de2_Testimonials-use-five-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | Olivia Bennett",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de2_Testimonials-use-five-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de3_Testimonials-use-six-144.webp",
+    "altText": "",
+    "context": "Section: Enhanced security | Michael Reed",
+    "isLogo": false,
+    "originalWidth": 144,
+    "originalHeight": 144,
+    "hasTransparency": true,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de3_Testimonials-use-six-144.webp",
+        "width": 144
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d00_Blog-one-thumbnail-image-320.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 500,
+    "originalHeight": 449,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d00_Blog-one-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d04_Blog-two-thumbnail-image-640.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 752,
+    "originalHeight": 676,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d04_Blog-two-thumbnail-image-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d04_Blog-two-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d06_Blog-three-thumbnail-image-640.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 752,
+    "originalHeight": 676,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d06_Blog-three-thumbnail-image-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d06_Blog-three-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d09_Blog-four-thumbnail-image-640.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 752,
+    "originalHeight": 676,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d09_Blog-four-thumbnail-image-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d09_Blog-four-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d0c_Blog-five-thumbnail-image-640.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 752,
+    "originalHeight": 676,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d0c_Blog-five-thumbnail-image-640.webp",
+        "width": 640
+      },
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d0c_Blog-five-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d71_Blog-six-thumbnail-image-320.webp",
+    "altText": "",
+    "context": "Section: Latest insights and trends | Easily adapt to changes and scale your operations with our flexible infrastructure, designed to supp",
+    "isLogo": false,
+    "originalWidth": 500,
+    "originalHeight": 449,
+    "hasTransparency": false,
+    "contentTone": "mixed",
+    "variants": [
+      {
+        "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d71_Blog-six-thumbnail-image-320.webp",
+        "width": 320
+      }
+    ]
+  },
+  {
+    "url": "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddf_Clayo-footer-logo.svg",
+    "altText": "",
+    "context": "Section: Latest insights and trends",
+    "isLogo": false,
+    "originalWidth": 0,
+    "originalHeight": 0,
+    "hasTransparency": false,
+    "variants": []
+  }
+]

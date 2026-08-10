@@ -1,0 +1,84 @@
+---
+const posts = [
+  {
+    title: "The Ultimate Guide to Budgeting in 2024",
+    excerpt: "Master the art of budgeting with our comprehensive guide. Learn how to create a budget that works for you.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d00_Blog%20one%20-%20thumbnail%20image.webp",
+    href: "/blogs/the-ultimate-guide-to-budgeting-in-2024",
+  },
+  {
+    title: "Top Investment Strategies for Long-Term Growth",
+    excerpt: "Discover the best investment strategies to build and sustain your wealth over time. From stocks to bonds.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d04_Blog%20two%20-%20thumbnail%20image.webp",
+    href: "/blogs/top-investment-strategies-for-long-term-growth",
+  },
+  {
+    title: "Understanding Cryptocurrency: What You Need to Know",
+    excerpt: "Cryptocurrency continues to make headlines, but what does it mean for your finances? Get a clear understanding of the risks.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d06_Blog%20three%20-%20thumbnail%20image.webp",
+    href: "/blogs/understanding-cryptocurrency-what-you-need-to-know",
+  },
+  {
+    title: "How to Reduce Debt and Improve Your Credit Score",
+    excerpt: "Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d09_Blog%20four%20-%20thumbnail%20image.webp",
+    href: "/blogs/how-to-reduce-debt-and-improve-your-credit-score",
+  },
+  {
+    title: "The Impact of Global Events on Your Finances",
+    excerpt: "Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d0c_Blog%20five%20-%20thumbnail%20image.webp",
+    href: "/blogs/the-impact-of-global-events-on-your-finances",
+  },
+  {
+    title: "Financial Planning for Entrepreneurs: A Success Blueprint",
+    excerpt: "Running a business requires careful financial planning. Discover the key steps to managing your business finances.",
+    image: "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0d71_Blog%20six%20-%20thumbnail%20image.webp",
+    href: "/blogs/financial-planning-for-entrepreneurs-a-success-blueprint",
+  },
+];
+---
+<section id="features-blog-slider" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="text-[#131313] font-normal">• Blog and articles</div>
+    <h2 class="text-[60px] font-normal text-[#131313] tracking-[-3.6px] leading-[1.1] mb-12 mt-4">Latest insights and trends</h2>
+
+    <div class="blog-carousel relative" data-ps="features-blog-carousel">
+      <div class="blog-track flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide" style="scrollbar-width: none;">
+        {posts.map((post) => (
+          <a href={post.href} class="blog-card flex flex-col gap-4 text-left w-[calc(100%-1rem)] md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] flex-shrink-0 snap-start hover-lift">
+            <div class="rounded-[16px] overflow-hidden aspect-[4/3]">
+              <img src={post.image} alt={post.title} class="w-full h-full object-cover" />
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-[12px] px-3 py-1 rounded-full bg-[#f3f4f2] text-[#4e4e4e]">News</span>
+              <span class="text-[12px] px-3 py-1 rounded-full bg-[#f3f4f2] text-[#4e4e4e]">Insights</span>
+            </div>
+            <h3 class="text-[24px] font-normal leading-[1.2] text-[#131313]">{post.title}</h3>
+            <p class="text-[16px] text-[#4e4e4e]">{post.excerpt}</p>
+          </a>
+        ))}
+      </div>
+
+      <div class="flex items-center gap-3 mt-6">
+        <button class="blog-prev w-12 h-12 rounded-full bg-[#f3f4f2] hover:bg-[#131313] hover:text-white transition-colors flex items-center justify-center text-[#131313]" aria-label="Previous">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="blog-next w-12 h-12 rounded-full bg-[#f3f4f2] hover:bg-[#131313] hover:text-white transition-colors flex items-center justify-center text-[#131313]" aria-label="Next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('[data-ps="features-blog-carousel"]').forEach((carousel) => {
+      const track = carousel.querySelector('.blog-track');
+      const prev = carousel.querySelector('.blog-prev');
+      const next = carousel.querySelector('.blog-next');
+      const scrollAmt = 360;
+      prev?.addEventListener('click', () => track.scrollBy({ left: -scrollAmt, behavior: 'smooth' }));
+      next?.addEventListener('click', () => track.scrollBy({ left: scrollAmt, behavior: 'smooth' }));
+    });
+  </script>
+</section>

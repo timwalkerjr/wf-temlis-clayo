@@ -1,0 +1,415 @@
+---
+const structureClasses = [
+  "page-wrapper", "main-wrapper", "button-group", "container-small",
+  "container-medium", "container-large", "padding-global",
+  "padding-section-small", "padding-section-medium", "padding-section-large",
+];
+
+const textSizes = [
+  { class: "text-xs", size: "12px" },
+  { class: "text-sm", size: "14px" },
+  { class: "text-base", size: "16px" },
+  { class: "text-lg", size: "18px" },
+  { class: "text-xl", size: "20px" },
+  { class: "text-2xl", size: "24px" },
+  { class: "text-3xl", size: "30px" },
+  { class: "text-4xl", size: "36px" },
+  { class: "text-5xl", size: "48px" },
+  { class: "text-6xl", size: "60px" },
+  { class: "text-7xl", size: "72px" },
+  { class: "text-8xl", size: "96px" },
+];
+
+const textWeights = [
+  { class: "text-weight-light", label: "Light", weight: "300" },
+  { class: "text-weight-normal", label: "Normal", weight: "400" },
+  { class: "text-weight-medium", label: "Medium", weight: "500" },
+  { class: "text-weight-semibold", label: "Semibold", weight: "600" },
+  { class: "text-weight-bold", label: "Bold", weight: "700" },
+];
+
+const directionClasses = ["padding-bottom", "padding-top", "padding-vertical", "padding-horizontal", "padding-left", "padding-right"];
+const sizeClasses = ["padding-0", "padding-tiny", "padding-xxsmall", "padding-xsmall", "padding-small", "padding-medium", "padding-large", "padding-xlarge"];
+
+const marginDirections = ["margin-bottom", "margin-top", "margin-vertical", "margin-horizontal", "margin-left", "margin-right"];
+const marginSizes = ["margin-0", "margin-tiny", "margin-xxsmall", "margin-xsmall", "margin-small", "margin-medium", "margin-large", "margin-xlarge"];
+
+const spacers = ["spacer-tiny", "spacer-xxsmall", "spacer-xsmall", "spacer-small", "spacer-medium", "spacer-large", "spacer-xlarge", "spacer-xxlarge", "spacer-huge", "spacer-xhuge"];
+
+const maxWidths = [
+  "max-width-full", "max-width-full-tablet", "max-width-full-mobile-portrait",
+  "max-width-full-mobile-landscape", "max-width-xxlarge", "max-width-xlarge",
+  "max-width-large", "max-width-medium", "max-width-small", "max-width-xsmall",
+  "max-width-xxsmall",
+];
+---
+<section id="style-guide" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="text-center mb-16">
+      <h1 class="text-[68px] leading-[1.1] tracking-[-4.08px] font-normal text-[#131313] mb-6">
+        Style Guide
+      </h1>
+      <p class="text-[16px] text-[#4e4e4e] max-w-[600px] mx-auto leading-[1.5]">
+        Reference for structure, typography, colors, and utilities used across the site.
+      </p>
+    </div>
+
+    <!-- Structure Classes -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Structure Classes</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Defined and flexible core structure we can use on all or most pages.</p>
+      <div class="flex flex-wrap gap-3">
+        {structureClasses.map((cls) => (
+          <code class="bg-surface px-4 py-2 rounded-[8px] text-[14px] font-mono text-foreground">{cls}</code>
+        ))}
+      </div>
+    </div>
+
+    <!-- Headings -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-6">Headings</h2>
+      <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-8">
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H1 · Default</p>
+          <h1 class="text-[68px] leading-[1.1] tracking-[-4.08px] font-normal text-foreground">Heading</h1>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H1 · heading-style-h1</p>
+          <h1 class="text-[68px] leading-[1.1] tracking-[-4.08px] font-normal text-foreground">Heading</h1>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H2 · Default</p>
+          <h2 class="text-[60px] leading-[1.2] tracking-[-3.6px] font-normal text-foreground">Heading</h2>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H2 · heading-style-h2</p>
+          <h2 class="text-[60px] leading-[1.2] tracking-[-3.6px] font-normal text-foreground">Heading</h2>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H3 · Default</p>
+          <h3 class="text-[36px] leading-[1.2] tracking-[-2.16px] font-normal text-foreground">Heading</h3>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H3 · heading-style-h3</p>
+          <h3 class="text-[36px] leading-[1.2] tracking-[-2.16px] font-normal text-foreground">Heading</h3>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H4 · Default</p>
+          <h4 class="text-[24px] leading-[1.2] font-normal text-foreground">Heading</h4>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H4 · heading-style-h4</p>
+          <h4 class="text-[24px] leading-[1.2] font-normal text-foreground">Heading</h4>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H5 · Default</p>
+          <h5 class="text-[20px] leading-[1.3] font-normal text-foreground">Heading</h5>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H5 · heading-style-h5</p>
+          <h5 class="text-[20px] leading-[1.3] font-normal text-foreground">Heading</h5>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H6 · Default</p>
+          <h6 class="text-[16px] leading-[1.4] font-normal text-foreground uppercase tracking-wider">Heading</h6>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">H6 · heading-style-h6</p>
+          <h6 class="text-[16px] leading-[1.4] font-normal text-foreground uppercase tracking-wider">Heading</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other HTML Tags -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-6">Other HTML Tags</h2>
+      <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-6">
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">All paragraphs</p>
+          <p class="text-[16px] text-foreground leading-[1.5]">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website. Sample text is being used as a placeholder for real text.</p>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">All links</p>
+          <a href="#test" class="text-[#5f58ff] underline">All Links</a>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">All quotes</p>
+          <blockquote class="border-l-4 border-[#5f58ff] pl-4 italic text-[16px] text-foreground">Sample text is being used as a placeholder for real text that is normally present. Sample text helps you understand how real text may look on your website.</blockquote>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">All Ordered Lists</p>
+          <ol class="list-decimal pl-6 flex flex-col gap-2 text-[16px] text-foreground">
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+          </ol>
+        </div>
+        <div>
+          <p class="text-[14px] text-[#4e4e4e] uppercase tracking-wider mb-2">All Unordered Lists</p>
+          <ul class="list-disc pl-6 flex flex-col gap-2 text-[16px] text-foreground">
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+            <li>Sample text is being used as a placeholder for real text that is normally present.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Text Classes -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-6">Text Classes</h2>
+
+      <div class="mb-8">
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Text Sizes</h3>
+        <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-4">
+          {textSizes.map((t) => (
+            <div class="flex items-baseline gap-4 border-b border-border pb-3 last:border-0">
+              <code class="text-[12px] font-mono text-[#4e4e4e] min-w-[100px]">{t.class}</code>
+              <span class="text-foreground" style={`font-size: ${t.size}`}>Sample</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Text Styles</h3>
+        <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-3">
+          <p class="line-through text-[16px] text-foreground">text-style-strikethrough</p>
+          <p class="italic text-[16px] text-foreground">text-style-italic</p>
+          <p class="text-[16px] text-[#4e4e4e]">text-style-muted</p>
+          <p class="text-[16px] uppercase tracking-wider text-foreground">text-style-allcaps</p>
+          <p class="text-[16px] whitespace-nowrap text-foreground">text-style-nowrap</p>
+          <p class="text-[16px] text-[#5f58ff] underline">text-style-link</p>
+          <blockquote class="text-[20px] italic text-foreground border-l-4 border-border pl-4">text-style-quote — Sample text is being used as a placeholder.</blockquote>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Text Weights</h3>
+        <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-3">
+          {textWeights.map((w) => (
+            <div class="flex items-baseline gap-4">
+              <code class="text-[12px] font-mono text-[#4e4e4e] min-w-[140px]">{w.class}</code>
+              <span class="text-[16px] text-foreground" style={`font-weight: ${w.weight}`}>{w.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Text Alignments</h3>
+        <div class="bg-surface rounded-[20px] p-8 flex flex-col gap-3">
+          <p class="text-left text-[16px] text-foreground">text-align-left</p>
+          <p class="text-center text-[16px] text-foreground">text-align-center</p>
+          <p class="text-right text-[16px] text-foreground">text-align-right</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-6">Buttons</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Button combo class system.</p>
+      <div class="flex flex-wrap gap-4 items-center">
+        <a href="#test" class="bg-[#131313] text-white rounded-[12px] px-6 py-3 hover:bg-[#232323] transition-colors">Button Text</a>
+        <a href="#test" class="bg-[#5f58ff] text-white rounded-[12px] px-6 py-3 hover:bg-[#4a44e0] transition-colors">Button Text</a>
+        <a href="#test" class="bg-transparent border border-[#131313] text-[#131313] rounded-[12px] px-6 py-3 hover:bg-[#f3f4f2] transition-colors">Button Text</a>
+        <a href="#test" class="bg-[#131313] text-white rounded-[12px] px-6 py-3 hover:bg-[#232323] transition-colors inline-flex items-center gap-2">Button Text <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <!-- Colors -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-6">Colors</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Manage recurring text and background colors.</p>
+
+      <div class="mb-8">
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Text Colors</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-surface rounded-[20px] p-6">
+            <p class="text-[14px] font-mono text-[#4e4e4e] mb-2">text-color-primary</p>
+            <p class="text-[24px] text-foreground">text-color-primary</p>
+          </div>
+          <div class="bg-surface rounded-[20px] p-6">
+            <p class="text-[14px] font-mono text-[#4e4e4e] mb-2">text-color-secondary</p>
+            <p class="text-[24px] text-[#5f58ff]">text-color-secondary</p>
+          </div>
+          <div class="bg-[#131313] rounded-[20px] p-6">
+            <p class="text-[14px] font-mono text-[#d4d4d4] mb-2">text-color-alternate</p>
+            <p class="text-[24px] text-white">text-color-alternate</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-[20px] font-normal text-foreground mb-4">Background Colors</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-[#131313] text-white rounded-[20px] p-8 text-center">
+            <p class="font-mono text-[14px] mb-2">bg-primary</p>
+            <p class="text-[16px]">#131313</p>
+          </div>
+          <div class="bg-[#5f58ff] text-white rounded-[20px] p-8 text-center">
+            <p class="font-mono text-[14px] mb-2">bg-secondary</p>
+            <p class="text-[16px]">#5F58FF</p>
+          </div>
+          <div class="bg-surface text-foreground rounded-[20px] p-8 text-center border border-border">
+            <p class="font-mono text-[14px] mb-2">bg-tertiary</p>
+            <p class="text-[16px]">#F3F4F2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Max widths -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Max widths</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Use the max-width CSS property to contain inner content to a maximum width.</p>
+      <div class="bg-surface rounded-[20px] p-6 flex flex-wrap gap-2">
+        {maxWidths.map((cls) => (
+          <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+        ))}
+      </div>
+    </div>
+
+    <!-- Paddings -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Paddings</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Utility spacing system — padding classes. [padding-direction] + [padding-size].</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-surface rounded-[20px] p-6">
+          <h3 class="text-[18px] font-normal mb-4 text-foreground">Direction Classes</h3>
+          <div class="flex flex-wrap gap-2">
+            {directionClasses.map((cls) => (
+              <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+            ))}
+          </div>
+        </div>
+        <div class="bg-surface rounded-[20px] p-6">
+          <h3 class="text-[18px] font-normal mb-4 text-foreground">Size Classes</h3>
+          <div class="flex flex-wrap gap-2">
+            {sizeClasses.map((cls) => (
+              <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Margins -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Margins</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Utility spacing system — margin classes. [margin-direction] + [margin-size].</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-surface rounded-[20px] p-6">
+          <h3 class="text-[18px] font-normal mb-4 text-foreground">Direction Classes</h3>
+          <div class="flex flex-wrap gap-2">
+            {marginDirections.map((cls) => (
+              <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+            ))}
+          </div>
+        </div>
+        <div class="bg-surface rounded-[20px] p-6">
+          <h3 class="text-[18px] font-normal mb-4 text-foreground">Size Classes</h3>
+          <div class="flex flex-wrap gap-2">
+            {marginSizes.map((cls) => (
+              <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spacers -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Spacers</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Unified spacer system for the project.</p>
+      <div class="bg-surface rounded-[20px] p-6 flex flex-wrap gap-2">
+        {spacers.map((cls) => (
+          <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+        ))}
+      </div>
+    </div>
+
+    <!-- Icons -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Icons</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Unify icon sizes. <code class="font-mono">icon-height</code> sets the height of icons. <code class="font-mono">icon-1x1</code> sets both height and width.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-surface rounded-[20px] p-6">
+          <p class="text-[14px] font-mono text-[#4e4e4e] mb-4">icon-height-small</p>
+          <div class="w-4 h-4 bg-[#131313]"></div>
+        </div>
+        <div class="bg-surface rounded-[20px] p-6">
+          <p class="text-[14px] font-mono text-[#4e4e4e] mb-4">icon-height-medium</p>
+          <div class="w-6 h-6 bg-[#131313]"></div>
+        </div>
+        <div class="bg-surface rounded-[20px] p-6">
+          <p class="text-[14px] font-mono text-[#4e4e4e] mb-4">icon-height-large</p>
+          <div class="w-8 h-8 bg-[#131313]"></div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        {["small", "medium", "large"].map((size) => (
+          <div class="bg-surface rounded-[20px] p-6">
+            <p class="text-[14px] font-mono text-[#4e4e4e] mb-4">icon-1x1-{size}</p>
+            <div class="flex gap-4 items-center">
+              <div class={`bg-[#131313] ${size === 'small' ? 'w-4 h-4' : size === 'medium' ? 'w-6 h-6' : 'w-8 h-8'}`}></div>
+              <div class={`bg-[#5f58ff] ${size === 'small' ? 'w-4 h-4' : size === 'medium' ? 'w-6 h-6' : 'w-8 h-8'}`}></div>
+              <div class={`bg-[#3898EC] ${size === 'small' ? 'w-4 h-4' : size === 'medium' ? 'w-6 h-6' : 'w-8 h-8'}`}></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Useful utility systems -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Useful utility systems</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Utility classes we like to use in most of our projects to build faster.</p>
+      <div class="bg-surface rounded-[20px] p-6 flex flex-wrap gap-2">
+        {["hide", "hide-tablet", "hide-mobile-portrait", "hide-mobile-landscape", "overflow-visible", "overflow-hidden", "overflow-auto", "overflow-scroll", "pointer-events-auto", "pointer-events-none", "layer", "spacing-clean", "align-center", "display-inlineflex", "inherit-color"].map((cls) => (
+          <code class="bg-white px-3 py-1.5 rounded-[6px] text-[12px] font-mono text-foreground border border-border">{cls}</code>
+        ))}
+      </div>
+    </div>
+
+    <!-- Form Component -->
+    <div class="mb-16">
+      <h2 class="text-[36px] tracking-[-2.16px] font-normal text-foreground mb-4">Form component</h2>
+      <p class="text-[16px] text-[#4e4e4e] mb-6">Example of a form component using folders.</p>
+      <form class="bg-surface rounded-[20px] p-8 flex flex-col gap-6 max-w-[600px]">
+        <div>
+          <label class="block text-[14px] font-medium text-foreground mb-2">Text Input</label>
+          <input type="text" class="w-full bg-white border border-border rounded-[8px] px-4 py-3 text-[16px] text-foreground" placeholder="Enter text" />
+        </div>
+        <div>
+          <label class="block text-[14px] font-medium text-foreground mb-2">Text Area</label>
+          <textarea class="w-full bg-white border border-border rounded-[8px] px-4 py-3 text-[16px] text-foreground min-h-[120px]" placeholder="Enter long text"></textarea>
+        </div>
+        <div>
+          <label class="block text-[14px] font-medium text-foreground mb-2">Select field</label>
+          <select class="w-full bg-white border border-border rounded-[8px] px-4 py-3 text-[16px] text-foreground">
+            <option>Select one...</option>
+            <option>First Choice</option>
+            <option>Second Choice</option>
+            <option>Third Choice</option>
+          </select>
+        </div>
+        <div class="flex items-center gap-3">
+          <input type="checkbox" id="cb1" class="w-5 h-5" />
+          <label for="cb1" class="text-[16px] text-foreground">Checkbox field</label>
+        </div>
+        <div class="flex items-center gap-3">
+          <input type="checkbox" id="cb2" class="w-5 h-5" />
+          <label for="cb2" class="text-[16px] text-foreground">Checkbox</label>
+        </div>
+        <div class="flex items-center gap-3">
+          <input type="radio" id="rb1" name="radio" class="w-5 h-5" />
+          <label for="rb1" class="text-[16px] text-foreground">Radio button</label>
+          <span class="text-[16px] text-foreground">Radio</span>
+        </div>
+        <button type="button" class="bg-[#131313] text-white rounded-[12px] px-6 py-3 self-start hover:bg-[#232323] transition-colors">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>

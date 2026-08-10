@@ -1,0 +1,902 @@
+[
+  {
+    "index": 0,
+    "heading": "Site header / navigation (port into Navigation.astro)",
+    "widgetTypes": [
+      "nav"
+    ],
+    "html": "<nav class=\"nav_mobile w-nav-menu\"><div class=\"navbar_list\"><a href=\"https://clayo-syncflowai-schema.webflow.io/\" class=\"nav_links w-nav-link w--current\">Home V.1</a><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v1\" class=\"nav_links w-nav-link\">About V.1</a><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v1\" class=\"nav_links w-nav-link\">Contact V.1</a><div class=\"nav_dropdown w-dropdown\"><div class=\"nav_links is-dropdown w-dropdown-toggle\" id=\"w-dropdown-toggle-0\"><div class=\"text-block\">More Links</div><div class=\"nav_link-icon w-icon-dropdown-toggle\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></div><nav class=\"nav_link-dropdown w-dropdown-list\" id=\"w-dropdown-list-0\"><div class=\"nav_dropdown-wrap\" style=\"height: 0px;\"><div class=\"nav_dropdown-content\"><div class=\"nav_dropdown-column\"><a href=\"https://clayo-syncflowai-schema.webflow.io/\" class=\"nav_dropdown-link hide-mobile-landscape w-dropdown-link w--current\">Home V.1</a><a href=\"https://clayo-syncflowai-schema.webflow.io/home/home-v2\" class=\"nav_dropdown-link w-dropdown-link\">Home V.2</a><a href=\"https://clayo-syncflowai-schema.webflow.io/home/home-v3\" class=\"nav_dropdown-link w-dropdown-link\">Home V.3</a><a href=\"https://clayo-syncflowai-schema.webflow.io/features\" class=\"nav_dropdown-link w-dropdown-link\">Features</a></div><div class=\"nav_dropdown-column\"><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v1\" class=\"nav_dropdown-link hide-mobile-landscape w-dropdown-link\">About V.1</a><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v2\" class=\"nav_dropdown-link w-dropdown-link\">About V.2</a><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v3\" class=\"nav_dropdown-link w-dropdown-link\">About V.3</a><a href=\"https://clayo-syncflowai-schema.webflow.io/pricing\" class=\"nav_dropdown-link w-dropdown-link\">Pricing</a></div><div class=\"nav_dropdown-column\"><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v1\" class=\"nav_dropdown-link hide-mobile-landscape w-dropdown-link\">Contact V.1</a><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v2\" class=\"nav_dropdown-link w-dropdown-link\">Contact V.2</a><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v3\" class=\"nav_dropdown-link w-dropdown-link\">Contact V.3</a></div><div class=\"nav_dropdown-column\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs\" class=\"nav_dropdown-link w-dropdown-link\">Blog</a><a href=\"https://clayo.webflow.io/blogs/the-ultimate-guide-to-budgeting-in-2024\" class=\"nav_dropdown-link w-dropdown-link\">Blog Post</a></div></div></div></nav></div></div></nav>",
+    "elementStyles": [
+      {
+        "tag": "a",
+        "cls": "nav_links",
+        "text": "Home V.1",
+        "color": "rgb(19, 19, 19)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_links",
+        "text": "About V.1",
+        "color": "rgb(78, 78, 78)"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_links",
+        "text": "Contact V.1",
+        "color": "rgb(78, 78, 78)"
+      },
+      {
+        "tag": "div",
+        "cls": "nav_dropdown-content",
+        "text": "Home V.1Home V.2Home V.3Featur",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "24px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Home V.1",
+        "color": "rgb(19, 19, 19)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Home V.2",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Home V.3",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Features",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "About V.1",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "About V.2",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "About V.3",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Pricing",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Contact V.1",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Contact V.2",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Contact V.3",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Blog",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      },
+      {
+        "tag": "a",
+        "cls": "nav_dropdown-link",
+        "text": "Blog Post",
+        "color": "rgb(78, 78, 78)",
+        "fontWeight": "500"
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "heading": "We are passionate about empowering individuals and businesses to take control of their finances and achieve their financial goals.",
+    "html": "<section class=\"section_impact\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"impact_grid\"><div class=\"label-wrapper scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 12\" fill=\"none\" class=\"label-icon\"><circle cx=\"6\" cy=\"6\" r=\"6\" fill=\"#131313\"></circle></svg><div>About Clayo</div></div><div class=\"impact_content-wrapper\"><h2 class=\"text-3xl\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">We are passionate about empowering individuals and businesses to take control of their finances and achieve their financial goals.</h2><div class=\"w-layout-grid impact_info-wrapper\"><div class=\"impact_info\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><h2 class=\"text-3xl\">95%</h2><div class=\"text-color-secondary\">Complete customer satisfaction</div></div><div class=\"impact_info\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><h2 class=\"text-3xl\">10+</h2><div class=\"text-color-secondary\">Innovation and valuable insight</div></div><div class=\"impact_info\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><h2 class=\"text-3xl\">$10m</h2><div class=\"text-color-secondary\">Highly efficient financial strategies</div></div><div class=\"impact_info\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><h2 class=\"text-3xl\">50m</h2><div class=\"text-color-secondary\">Users worldwide, providing them with</div></div></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "We are passionate about empowe",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "impact_info",
+        "text": "95%Complete customer satisfact",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "95%",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "impact_info",
+        "text": "10+Innovation and valuable ins",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "10+",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "impact_info",
+        "text": "$10mHighly efficient financial",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "$10m",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "impact_info",
+        "text": "50mUsers worldwide, providing ",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "50m",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "heading": "Make payment easy, simplify your finance",
+    "html": "<section class=\"section_about\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"content-wrap\"><div class=\"header-content\"><h2 style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"text-6xl\">Make payment easy, simplify your finance</h2><div class=\"max-width-medium\"><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"text-base text-color-secondary\">Our platform managing personal finances or growing your investment portfolio, our system integrates the latest technology to help you make smarter financial decisions with ease.</div></div></div><div class=\"about_grid\"><div id=\"w-node-ef8f07be-b0ec-e67c-4c3b-2cc0ea1bcd03-610b0cdd\" class=\"about_img\"><div style=\"transform: translate3d(0px, 0px, 0px) scale3d(1.5, 1.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(5px); transform-style: preserve-3d;\" class=\"img-wrapper\"><img alt src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0df9_Frame%202147226953.webp\" class=\"img\"></div></div><div id=\"w-node-ef8f07be-b0ec-e67c-4c3b-2cc0ea1bcd06-610b0cdd\" style=\"opacity: 0;\" class=\"visual_card-top bg-tertiary\"><div class=\"text-5xl\">10+</div><div class=\"text-sm text-color-alternate\">Years of innovation and valuable insights, empowering businesses to thrive in a competitive market.</div></div><div id=\"w-node-ef8f07be-b0ec-e67c-4c3b-2cc0ea1bcd0b-610b0cdd\" class=\"about_img is-box\"><div style=\"transform: translate3d(0px, 0px, 0px) scale3d(1.5, 1.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(5px); transform-style: preserve-3d;\" class=\"img-wrapper\"><img alt src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dfa_Finance%20image%20three.webp\" class=\"img\" width=\"282\" height=\"515\"></div></div><div id=\"w-node-ef8f07be-b0ec-e67c-4c3b-2cc0ea1bcd0e-610b0cdd\" style=\"opacity: 0;\" class=\"visual_card-bottom bg-alternate\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 50 50\" fill=\"none\" class=\"icon-1x1-large\"><path d=\"M0 24.7273C0 11.0708 11.0708 0 24.7273 0C38.3838 0 49.4545 11.0708 49.4545 24.7273C49.4545 38.3838 38.3838 49.4545 24.7273 49.4545C11.0708 49.4545 0 38.3838 0 24.7273Z\" fill=\"white\" fill-opacity=\"0.1\"></path><path d=\"M34.1764 26.3672V27.3672C34.1764 27.6372 33.9664 27.8572 33.6864 27.8672H32.2264C31.6964 27.8672 31.2164 27.4772 31.1764 26.9572C31.1464 26.6472 31.2664 26.3572 31.4664 26.1572C31.6464 25.9672 31.8964 25.8672 32.1664 25.8672H33.6764C33.9664 25.8772 34.1764 26.0972 34.1764 26.3672Z\" fill=\"white\"></path><path d=\"M30.7158 25.4172C30.2158 25.9072 29.9758 26.6372 30.1758 27.3972C30.4358 28.3272 31.3458 28.9172 32.3058 28.9172H33.1758C33.7258 28.9172 34.1758 29.3672 34.1758 29.9172V30.1072C34.1758 32.1772 32.4858 33.8672 30.4158 33.8672H18.9358C16.8658 33.8672 15.1758 32.1772 15.1758 30.1072V23.3772C15.1758 22.1472 15.7658 21.0572 16.6758 20.3772C17.3058 19.8972 18.0858 19.6172 18.9358 19.6172H30.4158C32.4858 19.6172 34.1758 21.3072 34.1758 23.3772V23.8172C34.1758 24.3672 33.7258 24.8172 33.1758 24.8172H32.1558C31.5958 24.8172 31.0858 25.0372 30.7158 25.4172Z\" fill=\"white\"></path><path d=\"M28.9256 17.5466C29.1956 17.8166 28.9656 18.2366 28.5856 18.2366L20.9056 18.2266C20.4656 18.2266 20.2356 17.6866 20.5556 17.3766L22.1756 15.7466C23.5456 14.3866 25.7656 14.3866 27.1356 15.7466L28.8856 17.5166C28.8956 17.5266 28.9156 17.5366 28.9256 17.5466Z\" fill=\"white\"></path></svg><div class=\"card_wrap\"><div class=\"text-5xl\">95%</div><div class=\"text-sm text-color-soft-white\">Complete customer satisfaction achieved through personalized solutions, proactive support, and a dedication to meeting the unique needs of every client. Our focus on excellence ensures your success at every step.</div></div></div><div id=\"w-node-ef8f07be-b0ec-e67c-4c3b-2cc0ea1bcd18-610b0cdd\" class=\"about_img is-box\"><div style=\"transform: translate3d(0px, 0px, 0px) scale3d(1.5, 1.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(5px); transform-style: preserve-3d;\" class=\"img-wrapper\"><img alt src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0df8_Frame%202147226954.webp\" class=\"img\"></div></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "h2",
+        "cls": "text-6xl",
+        "text": "Make payment easy, simplify yo",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "60px"
+      },
+      {
+        "tag": "img",
+        "cls": "img",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "visual_card-top",
+        "text": "10+Years of innovation and val",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(35, 35, 35)",
+        "borderRadius": "20px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "visual_card-bottom",
+        "text": "95%Complete customer satisfact",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(95, 88, 255)",
+        "borderRadius": "20px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "svg",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "heading": "Empowering and strengthening your financial success",
+    "html": "<section class=\"section_dashboard\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"content-wrapper is-centered\"><div class=\"header is-centered\"><div class=\"label-wrapper scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 12\" fill=\"none\" class=\"label-icon\"><circle cx=\"6\" cy=\"6\" r=\"6\" fill=\"#131313\"></circle></svg><div>Expertise</div></div><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"dashboard_title\"><h2 class=\"heading-style-h2\">Empowering and strengthening your financial success</h2></div><div class=\"dashboard_description scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-color-secondary\">Our platform provides advanced tools and insights to help you manage, grow, and secure your financial assets.</div></div></div><div class=\"w-layout-grid dashboard_grid\"><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"w-layout-grid dashboard_card\"><div class=\"dashboard_card-image is-one box-shadows\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc4_Dashboard%20one%20-%20image%20one.webp\" alt class=\"img\" width=\"306\" height=\"259\"></div><div class=\"dashboard_card-content\"><h3 class=\"text-xl\">Intuitive user interface</h3><div class=\"text-color-secondary\">User-friendly design for effortless navigation and usability</div></div></div><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"w-layout-grid dashboard_card\"><div class=\"dashboard_card-image is-two box-shadows\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc5_Dashboard%20one%20-%20image%20two.webp\" alt class=\"img\" width=\"306\" height=\"280\"></div><div class=\"dashboard_card-content\"><h3 class=\"text-xl\">Automated processes</h3><div class=\"text-color-secondary\">Streamlined workflows to increase efficiency and reduce manual tasks</div></div></div><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"w-layout-grid dashboard_card\"><div class=\"dashboard_card-image is-three\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc6_Dashboard%20one%20-%20image%20three.webp\" alt class=\"img\"><div class=\"dashboard_card-image is-four box-shadows\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc7_Dashboard%20one%20-%20image%20four.webp\" alt class=\"img\"></div><div class=\"dashboard_card-image is-five box-shadows\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc7_Dashboard%20one%20-%20image%20four.webp\" alt class=\"img\"></div></div><div class=\"dashboard_card-content\"><h3 class=\"text-xl\">Advanced security features</h3><div class=\"text-color-secondary\">Protect your data with top-notch security protocols</div></div></div><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"w-layout-grid dashboard_card\"><div class=\"dashboard_card-image is-six box-shadows\" style=\"will-change: transform; transform: translate3d(0px, 9.998%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc9_Dashboard%20one%20-%20image%20sixe.webp\" alt class=\"img\" width=\"306\" height=\"280\"></div><div class=\"dashboard_card-content\"><h3 class=\"text-xl\">Secure transactions</h3><div class=\"text-color-secondary\">Safeguard your purchases with encrypted transactions and fraud detection</div></div></div></div><div style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"button-wrapper\"><a href=\"https://clayo-syncflowai-schema.webflow.io/features\" class=\"button w-inline-block\"><div class=\"button-background\" style=\"transform: translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;\"></div><div class=\"button-text\">Learn more</div></a></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "heading-style-h2",
+        "text": "Empowering and strengthening y",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "60px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-layout-grid",
+        "text": "Intuitive user interfaceUser-f",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "img",
+        "cls": "img",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-xl",
+        "text": "Intuitive user interface",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-layout-grid",
+        "text": "Automated processesStreamlined",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-xl",
+        "text": "Automated processes",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-layout-grid",
+        "text": "Advanced security featuresProt",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-xl",
+        "text": "Advanced security features",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-layout-grid",
+        "text": "Secure transactionsSafeguard y",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-xl",
+        "text": "Secure transactions",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "20px"
+      },
+      {
+        "tag": "a",
+        "cls": "button",
+        "text": "Learn more",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(19, 19, 19)",
+        "borderRadius": "12px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "button-background",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(95, 88, 255)",
+        "borderRadius": "1584px",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "heading": "Explore our standout features designed to deliver exceptional performance and value, distinguishing us from the competition.",
+    "html": "<section class=\"section_features\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"features_scroll-content\"><div class=\"features_wrapper\"><div class=\"header\"><div class=\"label-wrapper scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 12\" fill=\"none\" class=\"label-icon\"><circle cx=\"6\" cy=\"6\" r=\"6\" fill=\"#131313\"></circle></svg><div>Features</div></div><h2 class=\"text-3xl is-feature-title\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">Explore our standout features designed to deliver exceptional performance and value, distinguishing us from the competition.</h2></div><div class=\"w-layout-grid features_grid\"><div class=\"features_content\"><div class=\"features_section is-first\" style=\"transform: translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><h3 class=\"heading-style-h3 is-one\" style=\"color: rgb(175, 175, 175);\">Real-time analytics</h3></div><div class=\"features_section is-second\" style=\"transform: translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><h3 class=\"heading-style-h3 is-two\" style=\"color: rgb(175, 175, 175);\">Customizable reports</h3></div><div class=\"features_section is-third\" style=\"transform: translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><h3 class=\"heading-style-h3 is-three\" style=\"color: rgb(175, 175, 175);\">Mobile accessibility</h3></div><div class=\"features_section is-fourth\" style=\"transform: translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><h3 class=\"heading-style-h3 is-four\" style=\"color: rgb(19, 19, 19);\">Enhanced security</h3></div></div><div class=\"features_image-content\" style=\"transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><div class=\"features_image-wrapper is-one\" style=\"will-change: transform; transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"features_image is-one box-shadows\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dca_Features%20one%20-%20image%20one.webp\" alt class=\"img\"></div><h3 class=\"heading-style-h3 is-one hide-desktop\" style=\"color: rgb(175, 175, 175);\">Real-time analytics</h3></div><div class=\"features_image-wrapper is-two\" style=\"will-change: transform; transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"features_image is-two box-shadows\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcb_Features%20one%20-%20image%20two.webp\" alt class=\"img\" width=\"326\" height=\"279\"></div><h3 class=\"heading-style-h3 is-two hide-desktop\" style=\"color: rgb(175, 175, 175);\">Customizable reports</h3></div><div class=\"features_image-wrapper is-three\" style=\"will-change: transform; transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"features_image is-three box-shadows\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcc_Features%20one%20-%20image%20three.webp\" alt class=\"img\" width=\"472\" height=\"361\"></div><h3 class=\"heading-style-h3 is-three hide-desktop\" style=\"color: rgb(175, 175, 175);\">Mobile accessibility</h3></div><div class=\"features_image-wrapper is-four\" style=\"will-change: transform; transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"features_image is-four\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dc6_Dashboard%20one%20-%20image%20three.webp\" alt class=\"img\"><div class=\"features_image is-five\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcd_Features%20one%20-%20image%20four.webp\" alt class=\"img\"></div></div><h3 class=\"heading-style-h3 is-four hide-desktop\" style=\"color: rgb(19, 19, 19);\">Enhanced security</h3></div></div></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "text-3xl",
+        "text": "Explore our standout features ",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "features_section",
+        "text": "Real-time analytics",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "heading-style-h3",
+        "text": "Real-time analytics",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "features_section",
+        "text": "Customizable reports",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "heading-style-h3",
+        "text": "Customizable reports",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "features_section",
+        "text": "Mobile accessibility",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "heading-style-h3",
+        "text": "Mobile accessibility",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "features_section",
+        "text": "Enhanced security",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h3",
+        "cls": "heading-style-h3",
+        "text": "Enhanced security",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "36px"
+      },
+      {
+        "tag": "div",
+        "cls": "features_image-content",
+        "text": "Real-time analyticsCustomizabl",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "24px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "img",
+        "cls": "img",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "html": "<section class=\"section_testimonials\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"testimonials_content\"><div class=\"testimonials_slider w-slider\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"testimonials_slider-mask w-slider-mask\" id=\"w-slider-mask-0\"><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\">“Clayo has revolutionized how I manage my startup’s finances. The platform is intuitive and the insights are incredibly valuable. I can’t imagine going back to how we used to do things.” </div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dce_Testimonials%20-%20use%20one.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\">Sarah Thompson</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;\">Founder, GreenPath Solutions</div></div></div></div></div><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1; visibility: hidden;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">“Thanks to Clayo, our team has gained better visibility into our budget and spending trends. The automation features save us hours every week, and the platform just keeps getting better.”</div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0ddd_Testimonials%20-%20use%20three.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">David Wilson</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">CFO, Nova Enterprises</div></div></div></div></div><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1; visibility: hidden;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">“I’ve used several financial platforms before, but none as complete and user-friendly as Clayo. It’s helped me grow my freelance business with confidence and clarity.”</div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcf_Testimonials%20-%20use%20two.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Emily Harris</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Freelance Consultant, EH Strategies</div></div></div></div></div><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1; visibility: hidden;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">“Clayo delivers exactly what modern businesses need — simplicity, power, and reliability. Our financial operations are smoother than ever.”</div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dd0_Testimonials%20-%20use%20four.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">James O’Connor</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Managing Director, BrightCore Ltd</div></div></div></div></div><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1; visibility: hidden;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">“Clayo gives me peace of mind. Tracking expenses and setting financial goals has never been easier. The design is clean, and everything just works.”</div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0de2_Testimonials%20-%20use%20five.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Olivia Bennett</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Marketing Director, Horizon Brands</div></div></div></div></div><div class=\"testimoniasl_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1; visibility: hidden;\"><div class=\"testimonials_card\"><div class=\"text-3xl is-testimonials\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">“As a small business owner, Clayo has been a lifesaver. It’s like having a full finance team in one app. Highly recommend it to anyone looking to scale smartly.”</div><div class=\"testimonials_card-info-wrapper\"><div class=\"testimonials_card-user\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0de3_Testimonials%20-%20use%20six.webp\" alt class=\"img\"></div><div class=\"testimonials_card-info\"><div class=\"text-2xl\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Michael Reed</div><div class=\"text-color-secondary\" style=\"transform: translate3d(3rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0; will-change: opacity, transform;\">Owner, Reed &amp; Co.</div></div></div></div></div><div class=\"w-slider-aria-label\"></div></div><div class=\"testimoniasl_arrow w-slider-arrow-left\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 10 20\" fill=\"none\" class=\"icon-1x1-small\"><path d=\"M7.95668 5.48516L7.07251 4.60182L2.25668 9.41599C2.17905 9.49313 2.11744 9.58486 2.0754 9.6859C2.03336 9.78694 2.01172 9.8953 2.01172 10.0047C2.01172 10.1142 2.03336 10.2225 2.0754 10.3236C2.11744 10.4246 2.17905 10.5163 2.25668 10.5935L7.07251 15.4102L7.95584 14.5268L3.43584 10.006L7.95668 5.48516Z\" fill=\"currentColor\"></path></svg></div><div class=\"testimoniasl_arrow is-right w-slider-arrow-right\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 10 20\" fill=\"none\" class=\"icon-1x1-small\"><path d=\"M2.04332 5.48516L2.92749 4.60182L7.74332 9.41599C7.82095 9.49313 7.88256 9.58486 7.9246 9.6859C7.96664 9.78694 7.98828 9.8953 7.98828 10.0047C7.98828 10.1142 7.96664 10.2225 7.9246 10.3236C7.88256 10.4246 7.82095 10.5163 7.74332 10.5935L2.92749 15.4102L2.04416 14.5268L6.56416 10.006L2.04332 5.48516Z\" fill=\"currentColor\"></path></svg></div><div class=\"hide w-slider-nav w-round\"><div class=\"w-slider-dot w-active\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "img",
+        "cls": "img",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "testimoniasl_arrow",
+        "color": "rgb(19, 19, 19)",
+        "border": "1px solid rgb(215, 215, 215)",
+        "borderRadius": "1584px",
+        "fontSize": "40px"
+      },
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "40px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-slider-dot",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "100%",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-slider-dot",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgba(255, 255, 255, 0.4)",
+        "borderRadius": "100%",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "heading": "Simple &amp; transparent pricing",
+    "html": "<section class=\"section_pricing\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"content-wrapper is-centered\"><div class=\"header is-centered\"><div class=\"pricing_title-wrapper\"><div class=\"label-wrapper scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 12\" fill=\"none\" class=\"label-icon\"><circle cx=\"6\" cy=\"6\" r=\"6\" fill=\"#131313\"></circle></svg><div>Expertise</div></div><h2 class=\"heading-style-h2\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">Simple &amp; transparent pricing</h2><h1 class=\"heading-style-h2 is-title\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">Simple &amp; transparent pricing</h1></div><div class=\"pricing_description\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-color-secondary\">Choose a plan that fits your business needs and budget. No hidden fees, no surprises—just straightforward pricing for powerful financial management.</div></div></div><div class=\"w-layout-grid pricing_grid\"><div class=\"pricing_card\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"pricing_card-header\"><div class=\"text-2xl\">Starter Plan</div><div class=\"text-5xl\">$50 <span class=\"text-xl text-color-secondary\">/month</span></div><div class=\"text-color-secondary\">Perfect for Small Teams, Startups, and Growing Businesses</div></div><div class=\"pricing_card-content\"><div>Features:</div><div class=\"pricing_card-features\"><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Basic financial analytics tools</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Up to 3 user accounts</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Real-time exchange rate monitoring</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Monthly financial reports</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Email support</div></div></div></div><a href=\"https://www.temlis.com/\" class=\"button w-inline-block\"><div class=\"button-background\" style=\"transform: translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;\"></div><div class=\"button-text\">Get Started</div></a></div><div id=\"w-node-b759b822-e249-6511-a68b-9128a3dae9dd-a3dae9a2\" class=\"pricing_card is-secondary\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"pricing_card-header\"><div class=\"text-2xl\">Starter Plan</div><div class=\"text-5xl\">$50 <span class=\"text-2xl text-color-alternate\">/month</span></div><div class=\"text-color-alternate\">Perfect for Small Teams, Startups, and Growing Businesses</div></div><div class=\"pricing_card-content\"><div>Features:</div><div class=\"pricing_card-features\"><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon is-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-alternate\">Basic financial analytics tools</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon is-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-alternate\">Up to 3 user accounts</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon is-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-alternate\">Real-time exchange rate monitoring</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon is-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-alternate\">Monthly financial reports</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon is-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-alternate\">Email support</div></div></div></div><a href=\"https://www.temlis.com/\" class=\"button is-secondary w-inline-block\"><div class=\"button-background is-secondary\" style=\"transform: translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;\"></div><div class=\"button-text\">Get Started</div></a></div><div class=\"pricing_card\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"pricing_card-header\"><div class=\"text-2xl\">Starter Plan</div><div class=\"text-5xl\">$50 <span class=\"text-xl text-color-secondary\">/month</span></div><div class=\"text-color-secondary\">Perfect for Small Teams, Startups, and Growing Businesses</div></div><div class=\"pricing_card-content\"><div>Features:</div><div class=\"pricing_card-features\"><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Basic financial analytics tools</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Up to 3 user accounts</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Real-time exchange rate monitoring</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Monthly financial reports</div></div><div class=\"pricing_card-feature\"><div class=\"pricing_card-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3.7168 7.96375L6.81203 11.059L12.2882 5.14062\" stroke=\"currentColor\" stroke-width=\"1.32653\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></div><div class=\"text-color-secondary\">Email support</div></div></div></div><a href=\"https://www.temlis.com/\" class=\"button w-inline-block\"><div class=\"button-background\" style=\"transform: translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;\"></div><div class=\"button-text\">Get Started</div></a></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "heading-style-h2",
+        "text": "Simple & transparent pricing",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "60px"
+      },
+      {
+        "tag": "div",
+        "cls": "pricing_card",
+        "text": "Starter Plan$50 /monthPerfect ",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(243, 244, 242)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "pricing_card-icon",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(19, 19, 19)",
+        "borderRadius": "1584px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "svg",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "button",
+        "text": "Get Started",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(19, 19, 19)",
+        "borderRadius": "12px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "button-background",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(95, 88, 255)",
+        "borderRadius": "1584px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "pricing_card",
+        "text": "Starter Plan$50 /monthPerfect ",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(19, 19, 19)",
+        "borderRadius": "16px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "pricing_card-icon",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "1584px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "a",
+        "cls": "button",
+        "text": "Get Started",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "12px",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "button-background",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgba(95, 88, 255, 0.3)",
+        "borderRadius": "1584px",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "heading": "Latest insights and trends",
+    "html": "<section class=\"section_blogs\"><div class=\"padding-global padding-section-medium\"><div class=\"container-large\"><div class=\"content-wrapper\"><div class=\"header\"><div class=\"label-wrapper scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 12\" fill=\"none\" class=\"label-icon\"><circle cx=\"6\" cy=\"6\" r=\"6\" fill=\"#131313\"></circle></svg><div>Blog and articles</div></div><h2 class=\"heading-style-h2 scroll-into-view\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">Latest insights and trends</h2></div><div class=\"blogs_slider scroll-into-view w-slider\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"blogs_slider-mask w-slider-mask\" id=\"w-slider-mask-1\"><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/the-ultimate-guide-to-budgeting-in-2024\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d00_Blog%20one%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" width=\"376\" height=\"338\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">The Ultimate Guide to Budgeting in 2024</h3><div class=\"text-color-secondary\">Master the art of budgeting with our comprehensive guide. Learn how to create a budget that works for you.</div></div></a></div></div></div></div><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/top-investment-strategies-for-long-term-growth\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d04_Blog%20two%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" width=\"376\" height=\"338\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category w-condition-invisible\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">Top Investment Strategies for Long-Term Growth</h3><div class=\"text-color-secondary\">Discover the best investment strategies to build and sustain your wealth over time. From stocks to bonds.</div></div></a></div></div></div></div><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/understanding-cryptocurrency-what-you-need-to-know\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d06_Blog%20three%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" width=\"376\" height=\"338\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">Understanding Cryptocurrency: What You Need to Know</h3><div class=\"text-color-secondary\">Cryptocurrency continues to make headlines, but what does it mean for your finances? Get a clear understanding of the risks.</div></div></a></div></div></div></div><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/how-to-reduce-debt-and-improve-your-credit-score\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d09_Blog%20four%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" width=\"376\" height=\"338\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category w-condition-invisible\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">How to Reduce Debt and Improve Your Credit Score</h3><div class=\"text-color-secondary\">Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty. </div></div></a></div></div></div></div><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/the-impact-of-global-events-on-your-finances\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d0c_Blog%20five%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category w-condition-invisible\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">The Impact of Global Events on Your Finances</h3><div class=\"text-color-secondary\">Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty.</div></div></a></div></div></div></div><div class=\"blogs_slide-item w-slide\" style=\"transition: all; transform: translateX(0px); opacity: 1;\"><div class=\"w-dyn-list\"><div class=\"w-dyn-items\"><div class=\"w-dyn-item\"><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs/financial-planning-for-entrepreneurs-a-success-blueprint\" class=\"blogs_card w-inline-block\"><div class=\"blogs_card-image\"><img src=\"https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d71_Blog%20six%20-%20thumbnail%20image.webp\" alt class=\"img\" style=\"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div><div class=\"blogs_card-content\"><div class=\"blogs_card-categories\"><div class=\"blogs_card-category\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">News</div></div><div class=\"blogs_card-category w-condition-invisible\" style=\"background-color: rgb(215, 215, 215);\"><div class=\"text-sm\">Insights</div></div></div><h3 class=\"text-2xl\">Financial Planning for Entrepreneurs: A Success Blueprint</h3><div class=\"text-color-secondary\">Running a business requires careful financial planning. Discover the key steps to managing your business finances.</div></div></a></div></div></div></div><div class=\"w-slider-aria-label\"></div></div><div class=\"blogs_gradient-left\"></div><div class=\"blogs_gradient-right\"></div><div class=\"blogs_arrow w-slider-arrow-left\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"icon-1x1-main\"><path d=\"M10.5 19.5L11.5575 18.4425L5.8725 12.75H21V11.25H5.8725L11.5575 5.5575L10.5 4.5L3 12L10.5 19.5Z\" fill=\"currentColor\"></path></svg></div><div class=\"blogs_arrow is-right w-slider-arrow-right\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"icon-1x1-main\"><path d=\"M13.5 19.5L12.4425 18.4425L18.1275 12.75H3V11.25H18.1275L12.4425 5.5575L13.5 4.5L21 12L13.5 19.5Z\" fill=\"currentColor\"></path></svg></div><div class=\"hide w-slider-nav w-round\"><div class=\"w-slider-dot w-active\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div><div class=\"w-slider-dot\" style=\"margin-left: 3px; margin-right: 3px;\"></div></div></div></div></div></div></section>",
+    "elementStyles": [
+      {
+        "tag": "svg",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "h2",
+        "cls": "heading-style-h2",
+        "text": "Latest insights and trends",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "60px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsThe Ultimate Guide",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "img",
+        "cls": "img",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "div",
+        "cls": "blogs_card-category",
+        "text": "News",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(215, 215, 215)",
+        "borderRadius": "4px",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "div",
+        "cls": "blogs_card-category",
+        "text": "Insights",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(215, 215, 215)",
+        "borderRadius": "4px",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "The Ultimate Guide to Budgetin",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsTop Investment Str",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "Top Investment Strategies for ",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsUnderstanding Cryp",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "Understanding Cryptocurrency: ",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsHow to Reduce Debt",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "How to Reduce Debt and Improve",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsThe Impact of Glob",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "The Impact of Global Events on",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "a",
+        "cls": "blogs_card",
+        "text": "NewsInsightsFinancial Planning",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "h3",
+        "cls": "text-2xl",
+        "text": "Financial Planning for Entrepr",
+        "color": "rgb(19, 19, 19)",
+        "fontSize": "24px"
+      },
+      {
+        "tag": "div",
+        "cls": "blogs_arrow",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(19, 19, 19)",
+        "borderRadius": "1584px",
+        "fontSize": "40px"
+      },
+      {
+        "tag": "svg",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "40px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-slider-dot",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "100%",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "div",
+        "cls": "w-slider-dot",
+        "color": "rgb(19, 19, 19)",
+        "backgroundColor": "rgba(255, 255, 255, 0.4)",
+        "borderRadius": "100%",
+        "fontSize": "16px"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "heading": "Site footer (port into Footer.astro)",
+    "widgetTypes": [
+      "footer"
+    ],
+    "html": "<footer class=\"footer\"><div class=\"padding-global padding-section-footer\"><div class=\"container-large\"><div class=\"footer_wrapper\"><div class=\"footer_top\"><div class=\"footer_top-left\"><div class=\"text-color-alternate\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">Easily adapt to changes and scale your operations with our flexible infrastructure, designed to support your business growth.</div><div class=\"footer_socials\"><a href=\"https://www.temlis.com/\" class=\"footer_social w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M13.3333 2.5C14.4384 2.5 15.4982 2.93899 16.2796 3.72039C17.061 4.50179 17.5 5.5616 17.5 6.66667V13.3333C17.5 14.4384 17.061 15.4982 16.2796 16.2796C15.4982 17.061 14.4384 17.5 13.3333 17.5H6.66667C5.5616 17.5 4.50179 17.061 3.72039 16.2796C2.93899 15.4982 2.5 14.4384 2.5 13.3333V6.66667C2.5 5.5616 2.93899 4.50179 3.72039 3.72039C4.50179 2.93899 5.5616 2.5 6.66667 2.5H13.3333ZM10 6.66667C9.11594 6.66667 8.2681 7.01786 7.64298 7.64298C7.01786 8.2681 6.66667 9.11594 6.66667 10C6.66667 10.8841 7.01786 11.7319 7.64298 12.357C8.2681 12.9821 9.11594 13.3333 10 13.3333C10.8841 13.3333 11.7319 12.9821 12.357 12.357C12.9821 11.7319 13.3333 10.8841 13.3333 10C13.3333 9.11594 12.9821 8.2681 12.357 7.64298C11.7319 7.01786 10.8841 6.66667 10 6.66667ZM10 8.33333C10.442 8.33333 10.866 8.50893 11.1785 8.82149C11.4911 9.13405 11.6667 9.55797 11.6667 10C11.6667 10.442 11.4911 10.866 11.1785 11.1785C10.866 11.4911 10.442 11.6667 10 11.6667C9.55797 11.6667 9.13405 11.4911 8.82149 11.1785C8.50893 10.866 8.33333 10.442 8.33333 10C8.33333 9.55797 8.50893 9.13405 8.82149 8.82149C9.13405 8.50893 9.55797 8.33333 10 8.33333ZM13.75 5.41667C13.529 5.41667 13.317 5.50446 13.1607 5.66074C13.0045 5.81702 12.9167 6.02899 12.9167 6.25C12.9167 6.47101 13.0045 6.68298 13.1607 6.83926C13.317 6.99554 13.529 7.08333 13.75 7.08333C13.971 7.08333 14.183 6.99554 14.3393 6.83926C14.4955 6.68298 14.5833 6.47101 14.5833 6.25C14.5833 6.02899 14.4955 5.81702 14.3393 5.66074C14.183 5.50446 13.971 5.41667 13.75 5.41667Z\" fill=\"white\"></path></svg></a><a href=\"https://www.temlis.com/\" class=\"footer_social w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M18.3327 10.0013C18.3327 5.4013 14.5993 1.66797 9.99935 1.66797C5.39935 1.66797 1.66602 5.4013 1.66602 10.0013C1.66602 14.0346 4.53268 17.393 8.33268 18.168V12.5013H6.66602V10.0013H8.33268V7.91797C8.33268 6.30964 9.64102 5.0013 11.2493 5.0013H13.3327V7.5013H11.666C11.2077 7.5013 10.8327 7.8763 10.8327 8.33464V10.0013H13.3327V12.5013H10.8327V18.293C15.041 17.8763 18.3327 14.3263 18.3327 10.0013Z\" fill=\"white\"></path></svg></a><a href=\"https://www.temlis.com/\" class=\"footer_social w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M14.4192 1.875H5.58083C4.59799 1.875 3.65539 2.26543 2.96041 2.96041C2.26543 3.65539 1.875 4.59799 1.875 5.58083V14.4192C1.875 15.402 2.26543 16.3446 2.96041 17.0396C3.65539 17.7346 4.59799 18.125 5.58083 18.125H14.4192C15.402 18.125 16.3446 17.7346 17.0396 17.0396C17.7346 16.3446 18.125 15.402 18.125 14.4192V5.58083C18.125 4.59799 17.7346 3.65539 17.0396 2.96041C16.3446 2.26543 15.402 1.875 14.4192 1.875ZM7.36917 14.9933C7.37178 15.0387 7.36509 15.0841 7.34951 15.1268C7.33394 15.1695 7.3098 15.2085 7.27858 15.2415C7.24736 15.2745 7.20973 15.3008 7.16798 15.3188C7.12624 15.3367 7.08127 15.3459 7.03583 15.3458H5.5525C5.46305 15.3437 5.37802 15.3065 5.31569 15.2423C5.25336 15.1781 5.2187 15.092 5.21917 15.0025V8.83333C5.21794 8.78879 5.22566 8.74446 5.24186 8.70296C5.25806 8.66145 5.28242 8.62361 5.3135 8.59168C5.34457 8.55975 5.38173 8.53438 5.42279 8.51705C5.46384 8.49973 5.50794 8.49082 5.5525 8.49083H7.03583C7.08039 8.49082 7.1245 8.49973 7.16555 8.51705C7.2066 8.53438 7.24376 8.55975 7.27484 8.59168C7.30591 8.62361 7.33027 8.66145 7.34647 8.70296C7.36268 8.74446 7.37039 8.78879 7.36917 8.83333V14.9933ZM6.26667 7.19333C6.10607 7.19213 5.94728 7.15931 5.79937 7.09674C5.65146 7.03417 5.51733 6.94308 5.40462 6.82867C5.29191 6.71426 5.20284 6.57877 5.1425 6.42994C5.08215 6.28111 5.05171 6.12185 5.05292 5.96125C5.05412 5.80065 5.08694 5.64187 5.14951 5.49396C5.21208 5.34605 5.30317 5.21191 5.41758 5.0992C5.53199 4.98649 5.66748 4.89743 5.81631 4.83708C5.96514 4.77674 6.1244 4.7463 6.285 4.7475C6.60376 4.75787 6.90586 4.8924 7.12682 5.12238C7.34778 5.35237 7.47012 5.6596 7.46773 5.97852C7.46534 6.29745 7.3384 6.60281 7.11402 6.82946C6.88963 7.0561 6.58555 7.18608 6.26667 7.19167M15.2808 14.9833C15.2804 15.0675 15.2474 15.1483 15.1886 15.2086C15.1299 15.2689 15.05 15.3041 14.9658 15.3067H13.4C13.3157 15.3041 13.2357 15.2688 13.1769 15.2083C13.1181 15.1478 13.0852 15.0668 13.085 14.9825V12.1292C13.085 11.7033 13.215 10.2767 11.955 10.2767C10.9725 10.2767 10.7783 11.2767 10.7408 11.7217V15.0475C10.7409 15.132 10.708 15.2132 10.6492 15.2738C10.5904 15.3345 10.5103 15.3699 10.4258 15.3725H8.90667C8.82062 15.3723 8.73816 15.3379 8.67739 15.277C8.61663 15.2161 8.5825 15.1336 8.5825 15.0475V8.80333C8.5851 8.71888 8.62048 8.63876 8.68115 8.57996C8.74182 8.52116 8.82301 8.48829 8.9075 8.48833H10.4258C10.5103 8.48829 10.5915 8.52116 10.6522 8.57996C10.7128 8.63876 10.7482 8.71888 10.7508 8.80333V9.34083C10.9725 9.01635 11.2786 8.75855 11.6361 8.59525C11.9935 8.43195 12.3887 8.36933 12.7792 8.41417C15.3083 8.41417 15.2992 10.7767 15.2992 12.12L15.2808 14.9833Z\" fill=\"white\"></path></svg></a><a href=\"https://www.temlis.com/\" class=\"footer_social w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M8.74065 12.2092L12.709 17.5H18.5423L11.994 8.76833L17.4423 2.5H15.234L10.9698 7.405L7.29232 2.5H1.45898L7.71732 10.8458L1.93398 17.5H4.14232L8.74065 12.2092ZM13.5423 15.8333L4.79232 4.16667H6.45898L15.209 15.8333H13.5423Z\" fill=\"white\"></path></svg></a></div></div><div class=\"footer_top-right\"><div class=\"footer_links-wrapper\"><a href=\"https://clayo-syncflowai-schema.webflow.io/\" class=\"footer_link w-inline-block w--current\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Home V.1</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/home/home-v2\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Home V.2</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/home/home-v3\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Home V.3</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/features\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Features</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v1\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">About us V.1</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a></div><div class=\"footer_links-wrapper\"><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v2\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">About us V.2</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/about/about-v3\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">About us V.3</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/pricing\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Pricing</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/blogs\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Blogs</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo.webflow.io/blogs/the-ultimate-guide-to-budgeting-in-2024\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Blog post</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a></div><div class=\"footer_links-wrapper\"><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v1\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Contact V.1</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v2\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Contact V.2</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/contact/contact-v3\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-base\">Contact V.3</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a></div></div></div><div class=\"footer_bottom\"><div id=\"w-node-_9aba6232-7dc9-44b4-eb72-4dcd7b4be496-c7a54878\" class=\"footer_terms-wrapper\"><a href=\"https://clayo-syncflowai-schema.webflow.io/template/licensing\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-sm\">Licensing</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><a href=\"https://clayo-syncflowai-schema.webflow.io/template/style-guide\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-sm\">Style Guide</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a></div><a href=\"https://webflow.com/\" id=\"w-node-bb792e4a-0326-94c8-0ca7-af2f4653cbda-c7a54878\" class=\"footer_link w-inline-block\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"><div class=\"text-sm\">Powered by Webflow</div><div class=\"link-underline\" style=\"transform: translate3d(-110%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></a><img src=\"https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0ddf_Clayo%20footer%20logo.svg\" id=\"w-node-_8b494d11-32d4-656f-f2ab-5ffd843231d1-c7a54878\" alt class=\"footer_logo\" style=\"opacity: 0; transform: translate3d(0px, 15%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\"></div></div></div></div></footer>",
+    "elementStyles": [
+      {
+        "tag": "a",
+        "cls": "footer_social",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(20, 47, 50)",
+        "border": "1px solid rgb(67, 89, 91)",
+        "borderRadius": "1584px",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "svg",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Home V.1",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "div",
+        "cls": "link-underline",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "14.08px",
+        "lineWidth": 69,
+        "lineHeight": 1
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Home V.2",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "div",
+        "cls": "link-underline",
+        "color": "rgb(175, 175, 175)",
+        "backgroundColor": "rgb(175, 175, 175)",
+        "fontSize": "14.08px",
+        "lineWidth": 73,
+        "lineHeight": 1
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Home V.3",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Features",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "About us V.1",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "About us V.2",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "About us V.3",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Pricing",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Blogs",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Blog post",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Contact V.1",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Contact V.2",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Contact V.3",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Licensing",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Style Guide",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "a",
+        "cls": "footer_link",
+        "text": "Powered by Webflow",
+        "color": "rgb(175, 175, 175)",
+        "fontSize": "14.08px"
+      },
+      {
+        "tag": "img",
+        "cls": "footer_logo",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "16px"
+      }
+    ]
+  }
+]

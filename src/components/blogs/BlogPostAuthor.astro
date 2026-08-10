@@ -1,0 +1,24 @@
+---
+const { image = "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d02_Blog-one-author-image-144.webp", name = "John Doe", role = "CEO, Tech Innovations" } = Astro.props;
+---
+<section id="blog-post-author" class="bg-background">
+  <div class="max-w-[800px] mx-auto px-6 pb-16">
+    <div class="border-t border-border pt-8">
+      <div class="text-[14px] uppercase tracking-wider text-[#4e4e4e] mb-3">Category</div>
+      <div class="flex items-center gap-2 mb-8">
+        <span class="text-[12px] px-3 py-1 rounded-full bg-[#f3f4f2] text-[#4e4e4e]">News</span>
+        <span class="text-[12px] px-3 py-1 rounded-full bg-[#f3f4f2] text-[#4e4e4e]">Insights</span>
+      </div>
+      <div class="text-[14px] uppercase tracking-wider text-[#4e4e4e] mb-4">Written by</div>
+      <div class="flex items-center gap-4">
+        <div class="w-14 h-14 rounded-full overflow-hidden bg-[#f3f4f2]">
+          <img src={image} alt={name} class="w-full h-full object-cover" loading="lazy" />
+        </div>
+        <div>
+          <div class="text-[16px] font-normal text-[#131313]">{name}</div>
+          <div class="text-[14px] text-[#4e4e4e] mt-1">{role}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

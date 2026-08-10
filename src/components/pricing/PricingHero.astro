@@ -1,0 +1,91 @@
+---
+const tiers = [
+  { name: "Starter Plan", highlighted: false },
+  { name: "Professional Plan", highlighted: true },
+  { name: "Enterprise Plan", highlighted: false },
+];
+
+const prices = ["$50/month", "$80/month", "$180/month"];
+
+const rows = [
+  { label: "Basic features at no cost", values: ["Access to limited code outputs", "Unlimited", "Unlimited"] },
+  { label: "Community support", values: ["Basic AI-powered sketch", "Limited storage processing", "100 GB"] },
+  { label: "Full access to all features", values: ["Embedded files", "Real-time whiteboard collaboration", "Updates tab"] },
+  { label: "Zoom connectivity", values: ["Limited", "Limited", "Unlimited"] },
+  { label: "Public forms", values: ["Tailored notifications", "Adjustable fields", "Limited"] },
+  { label: "Premium app integrations", values: ["Limited", "Limited", "Unlimited"] },
+  { label: "Action log", values: ["Endless dashboards", "Kanban layout", "Timeline display"] },
+];
+---
+<section id="pricing-hero" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-20 text-center">
+    <h1 class="text-[68px] leading-[1.1] tracking-[-4.08px] font-normal text-[#131313] mb-6">
+      Pricing plans
+    </h1>
+    <p class="text-[16px] text-[#4e4e4e] max-w-[600px] mx-auto leading-[1.5]">
+      Choose a plan that fits your business needs and budget. No hidden fees, no surprises.
+    </p>
+  </div>
+</section>
+
+<section id="pricing-comparison" class="bg-surface">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="text-center mb-12">
+      <h2 class="text-[60px] font-normal tracking-[-3.6px] leading-[1.1]">
+        Compare plans
+      </h2>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse">
+        <thead>
+          <tr>
+            <th class="text-left p-4 text-[14px] font-medium uppercase tracking-wider text-[#4e4e4e]"></th>
+            {tiers.map((tier) => (
+              <th class={`p-6 text-center ${tier.highlighted ? 'bg-[#131313] text-white rounded-t-[16px]' : 'bg-white'}`}>
+                <div class={`text-[20px] font-normal mb-2 ${tier.highlighted ? 'text-white' : 'text-foreground'}`}>
+                  {tier.name}
+                </div>
+                <div class={`text-[28px] font-normal ${tier.highlighted ? 'text-white' : 'text-foreground'}`}>
+                  {prices[tiers.indexOf(tier)]}
+                </div>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="p-4 text-[16px] font-medium text-foreground bg-white border-b border-border">Price</td>
+            {prices.map((price, idx) => (
+              <td class={`p-4 text-center text-[16px] ${tiers[idx].highlighted ? 'bg-[#131313] text-white border-b border-[#232323]' : 'bg-white text-foreground border-b border-border'}`}>
+                {price}
+              </td>
+            ))}
+          </tr>
+          {rows.map((row) => (
+            <tr>
+              <td class="p-4 text-[16px] font-medium text-foreground bg-white border-b border-border">{row.label}</td>
+              {row.values.map((val, idx) => (
+                <td class={`p-4 text-center text-[16px] ${tiers[idx].highlighted ? 'bg-[#131313] text-white border-b border-[#232323]' : 'bg-white text-foreground border-b border-border'}`}>
+                  {val}
+                </td>
+              ))}
+            </tr>
+          ))}
+          <tr>
+            <td class="p-4 bg-white"></td>
+            {tiers.map((tier, idx) => (
+              <td class={`p-6 text-center ${tier.highlighted ? 'bg-[#131313] rounded-b-[16px]' : 'bg-white'}`}>
+                <a
+                  href="https://www.temlis.com/"
+                  class={`inline-block px-6 py-3 rounded-[12px] transition-colors ${tier.highlighted ? 'bg-white text-[#131313] hover:bg-[#f3f4f2]' : 'bg-[#131313] text-white hover:bg-[#232323]'}`}
+                >
+                  Get Started
+                </a>
+              </td>
+            ))}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

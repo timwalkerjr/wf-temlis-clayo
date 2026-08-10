@@ -1,0 +1,106 @@
+---
+import Container from '@/components/Container.astro';
+
+const testimonials = [
+  {
+    quote: "Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insights are incredibly valuable. I can't imagine going back to how we used to do things.",
+    author: "Sarah Thompson",
+    role: "Founder, GreenPath Solutions",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dce_Testimonials-use-one-144.webp"
+  },
+  {
+    quote: "Thanks to Clayo, our team has gained better visibility into our budget and spending trends. The automation features save us hours every week, and the platform just keeps getting better.",
+    author: "David Wilson",
+    role: "CFO, Nova Enterprises",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddd_Testimonials-use-three-144.webp"
+  },
+  {
+    quote: "I've used several financial platforms before, but none as complete and user-friendly as Clayo. It's helped me grow my freelance business with confidence and clarity.",
+    author: "Emily Harris",
+    role: "Freelance Consultant, EH Strategies",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcf_Testimonials-use-two-144.webp"
+  },
+  {
+    quote: "Clayo delivers exactly what modern businesses need -- simplicity, power, and reliability. Our financial operations are smoother than ever.",
+    author: "James O'Connor",
+    role: "Managing Director, BrightCore Ltd",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dd0_Testimonials-use-four-144.webp"
+  },
+  {
+    quote: "Clayo gives me peace of mind. Tracking expenses and setting financial goals has never been easier. The design is clean, and everything just works.",
+    author: "Olivia Bennett",
+    role: "Marketing Director, Horizon Brands",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de2_Testimonials-use-five-144.webp"
+  },
+  {
+    quote: "As a small business owner, Clayo has been a lifesaver. It's like having a full finance team in one app. Highly recommend it to anyone looking to scale smartly.",
+    author: "Michael Reed",
+    role: "Owner, Reed & Co.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de3_Testimonials-use-six-144.webp"
+  }
+];
+---
+
+<section id="testimonials" class="bg-surface py-24 overflow-hidden" data-ps="src/components/home/Testimonials.astro:m12r5s">
+  <Container class="max-w-[1176px]">
+    <div class="relative max-w-[900px] mx-auto text-center" data-ps="src/components/home/Testimonials.astro:jqcpxz">
+      <div id="testimonial-slider" class="relative" data-ps="src/components/home/Testimonials.astro:jqcpxy">
+        {testimonials.map((t, index) => (
+          <div class={`testimonial-slide transition-opacity duration-500 flex flex-col items-center ${index === 0 ? 'block' : 'hidden'}`} data-index={index} data-ps={`src/components/home/Testimonials.astro:jqcpxx-${index}`}>
+            <blockquote class="text-[32px] leading-[1.4] font-normal text-[#131313] mb-12">
+              "{t.quote}"
+            </blockquote>
+            <div class="flex flex-col items-center gap-4" data-ps={`src/components/home/Testimonials.astro:jqcpxw-${index}`}>
+              <img src={t.image} alt={t.author} class="w-16 h-16 rounded-full border-2 border-white shadow-sm object-cover" data-ps={`src/components/home/Testimonials.astro:lfiddv-${index}`} />
+              <div class="text-[16px]" data-ps={`src/components/home/Testimonials.astro:jqcpxv-${index}`}>
+                <span class="font-bold text-[#131313]" data-ps={`src/components/home/Testimonials.astro:pdgp97-${index}`}>{t.author}</span>
+                <span class="text-[#4e4e4e] mx-2" data-ps={`src/components/home/Testimonials.astro:jsx5kj-${index}`}>/</span>
+                <span class="text-[#4e4e4e]" data-ps={`src/components/home/Testimonials.astro:jsx5ki-${index}`}>{t.role}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="flex justify-center gap-4 mt-12" data-ps="src/components/home/Testimonials.astro:jqcpxu">
+        <button id="prev-btn" class="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-white transition-colors" data-ps="src/components/home/Testimonials.astro:ii0b1j">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+        </button>
+        <button id="next-btn" class="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-white transition-colors" data-ps="src/components/home/Testimonials.astro:ii0b1i">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </button>
+      </div>
+    </div>
+  </Container>
+</section>
+
+<script is:inline>
+  let currentIndex = 0;
+  const slides = document.querySelectorAll('.testimonial-slide');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.add('hidden');
+      if (i === index) slide.classList.remove('hidden');
+    });
+  }
+
+  prevBtn?.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+  });
+
+  nextBtn?.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  });
+  
+  // Auto play
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }, 5000);
+</script>

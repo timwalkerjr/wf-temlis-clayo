@@ -1,0 +1,86 @@
+---
+const plans = [
+  {
+    name: "Starter Plan",
+    price: "$50 /month",
+    description: "Perfect for Small Teams, Startups, and Growing Businesses",
+    features: [
+      "Basic financial analytics tools",
+      "Up to 3 user accounts",
+      "Real-time exchange rate monitoring",
+      "Monthly financial reports",
+      "Email support",
+    ],
+    cta: "Get Started",
+    href: "https://www.temlis.com/",
+    highlighted: false,
+  },
+  {
+    name: "Starter Plan",
+    price: "$50 /month",
+    description: "Perfect for Small Teams, Startups, and Growing Businesses",
+    features: [
+      "Basic financial analytics tools",
+      "Up to 3 user accounts",
+      "Real-time exchange rate monitoring",
+      "Monthly financial reports",
+      "Email support",
+    ],
+    cta: "Get Started",
+    href: "https://www.temlis.com/",
+    highlighted: true,
+  },
+  {
+    name: "Starter Plan",
+    price: "$50 /month",
+    description: "Perfect for Small Teams, Startups, and Growing Businesses",
+    features: [
+      "Basic financial analytics tools",
+      "Up to 3 user accounts",
+      "Real-time exchange rate monitoring",
+      "Monthly financial reports",
+      "Email support",
+    ],
+    cta: "Get Started",
+    href: "https://www.temlis.com/",
+    highlighted: false,
+  },
+];
+---
+<section id="pricing-cards" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      {plans.map((plan) => (
+        <div class={`relative rounded-[16px] p-8 text-left flex flex-col justify-between h-full overflow-hidden ${plan.highlighted ? 'bg-[#131313] text-white' : 'bg-[#f3f4f2] text-foreground'}`}>
+          {plan.highlighted && (
+            <div class="absolute inset-x-0 bottom-0 h-1/2 pointer-events-none" style="background: radial-gradient(ellipse at bottom, rgba(95, 88, 255, 0.3), transparent 70%);"></div>
+          )}
+          <div class="relative">
+            <h3 class={`text-[20px] font-normal mb-2 ${plan.highlighted ? 'text-white' : 'text-foreground'}`}>{plan.name}</h3>
+            <div class={`text-[36px] font-normal mb-4 ${plan.highlighted ? 'text-white' : 'text-foreground'}`}>{plan.price}</div>
+            <p class={`text-[16px] mb-6 ${plan.highlighted ? 'text-[#d4d4d4]' : 'text-[#4e4e4e]'}`}>{plan.description}</p>
+            <p class={`text-[14px] font-medium mb-4 ${plan.highlighted ? 'text-white' : 'text-foreground'}`}>Features:</p>
+            <ul class="flex flex-col gap-3">
+              {plan.features.map((feature) => (
+                <li class={`flex items-start gap-2 text-[16px] ${plan.highlighted ? 'text-white' : 'text-foreground'}`}>
+                  <span class="mt-1 text-[#5f58ff]">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.333 4L6 11.333L2.667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <a
+            href={plan.href}
+            class={`relative w-full py-3 rounded-[12px] text-center block mt-8 transition-colors ${plan.highlighted ? 'bg-white text-[#131313] hover:bg-[#f3f4f2]' : 'bg-[#131313] text-white hover:bg-[#232323]'}`}
+          >
+            {plan.cta}
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

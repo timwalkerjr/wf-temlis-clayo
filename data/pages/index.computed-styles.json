@@ -1,0 +1,1423 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": {
+    "type": "color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": "rgb(19, 19, 19)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "68px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "Build & growth with scalable tools",
+          "letterSpacing": "-4.08px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "We are passionate about empowering individuals and businesses to take control of",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "95%",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "10+",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "$10m",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": null,
+      "buttons": [
+        {
+          "backgroundColor": "rgb(19, 19, 19)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "padding": "8px 24px 8px 24px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "text": "Get Started"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 48,
+          "displayHeight": 48,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 48,
+          "displayHeight": 48,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 48,
+          "displayHeight": 48,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 874,
+          "displayHeight": 1022,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 870,
+          "displayHeight": 374,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 423,
+          "displayHeight": 772,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 423,
+          "displayHeight": 374,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1176px",
+        "display": "grid",
+        "gridTemplateColumns": "529.516px 582.484px",
+        "gap": "64px",
+        "childCount": 2
+      },
+      "interactionType": "carousel",
+      "pseudoElements": [
+        {
+          "host": "nav_link-icon w-icon-dropdown-toggle",
+          "type": "::before",
+          "width": "auto",
+          "height": "auto",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "background": "rgb(243, 244, 242)",
+      "textColor": "rgb(19, 19, 19)",
+      "headings": [
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "We are passionate about empowering individuals and businesses to take control of",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "95%",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "10+",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "$10m",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "color": "rgb(19, 19, 19)",
+          "text": "50m",
+          "letterSpacing": "-2.16px",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {
+        "containerMaxWidth": "1176px",
+        "display": "grid",
+        "gridTemplateColumns": "116.219px 977.469px",
+        "gap": "7%",
+        "childCount": 2
+      }
+    },
+    {
+      "background": "rgb(243, 244, 242)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "images": [
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        },
+        {
+          "displayWidth": 72,
+          "displayHeight": 72,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1176px",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "gap": "48px",
+        "childCount": 4
+      },
+      "interactionType": "carousel"
+    },
+    {
+      "background": "rgb(19, 19, 19)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "links": [
+        {
+          "text": "Home V.1",
+          "color": "rgb(255, 255, 255)",
+          "fontWeight": "400"
+        },
+        {
+          "text": "Home V.2",
+          "color": "rgb(175, 175, 175)",
+          "fontWeight": "400"
+        }
+      ],
+      "layout": {
+        "containerMaxWidth": "1176px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "80px",
+        "childCount": 2
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "Inter",
+    "bodyFont": null,
+    "scale": {
+      "h1": {
+        "fontSize": "68px",
+        "fontWeight": "400",
+        "lineHeight": "84.32px"
+      },
+      "h2": {
+        "fontSize": "36px",
+        "fontWeight": "400",
+        "lineHeight": "43.92px"
+      }
+    }
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "position": "sticky",
+    "links": [
+      {
+        "text": "Home V.1",
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "color": "rgb(19, 19, 19)",
+        "active": true,
+        "hasDropdown": true
+      },
+      {
+        "text": "About V.1",
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "color": "rgb(78, 78, 78)",
+        "hasDropdown": true
+      },
+      {
+        "text": "Contact V.1",
+        "fontSize": "16px",
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "color": "rgb(78, 78, 78)",
+        "hasDropdown": true
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "12px 12px",
+      "pitchPx": 120,
+      "distribution": "left"
+    },
+    "pseudoElements": [
+      {
+        "host": "nav_link-icon w-icon-dropdown-toggle",
+        "type": "::before",
+        "width": "auto",
+        "height": "auto",
+        "content": ""
+      }
+    ]
+  },
+  "sliders": [
+    {
+      "sectionHeading": "",
+      "totalSlides": 1,
+      "visibleAtOnce": 1,
+      "slideType": "images",
+      "topPosition": 603946,
+      "autoScroll": true,
+      "items": [
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dce_Testimonials%20-%20use%20one.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            },
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0ddd_Testimonials%20-%20use%20three.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        }
+      ],
+      "initialIndex": 0,
+      "activeIndexSource": "visibility"
+    },
+    {
+      "sectionHeading": "",
+      "totalSlides": 6,
+      "visibleAtOnce": 1,
+      "slideType": "images",
+      "topPosition": 603946,
+      "items": [
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dce_Testimonials%20-%20use%20one.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        },
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0ddd_Testimonials%20-%20use%20three.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        },
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dcf_Testimonials%20-%20use%20two.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        },
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0dd0_Testimonials%20-%20use%20four.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        },
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0de2_Testimonials%20-%20use%20five.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        },
+        {
+          "texts": [],
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0de3_Testimonials%20-%20use%20six.webp",
+              "alt": "",
+              "displayWidth": 72,
+              "displayHeight": 72
+            }
+          ]
+        }
+      ],
+      "initialIndex": 0,
+      "activeIndexSource": "visibility"
+    },
+    {
+      "sectionHeading": "Latest insights and trends",
+      "totalSlides": 1,
+      "visibleAtOnce": 3,
+      "slideType": "mixed",
+      "topPosition": 605545,
+      "autoScroll": true,
+      "items": [
+        {
+          "texts": [
+            "The Ultimate Guide to Budgeting in 2024",
+            "Top Investment Strategies for Long-Term Growth",
+            "Understanding Cryptocurrency: What You Need to Know"
+          ],
+          "href": "/blogs/the-ultimate-guide-to-budgeting-in-2024",
+          "images": [
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d00_Blog%20one%20-%20thumbnail%20image.webp",
+              "alt": "",
+              "displayWidth": 376,
+              "displayHeight": 338
+            },
+            {
+              "src": "https://cdn.prod.website-files.com/6a3c3ed5c7bf81e0610b0cf7/6a3c3ed5c7bf81e0610b0d04_Blog%20two%20-%20thumbnail%20image.webp",
+              "alt": "",
+              "displayWidth": 376,
+              "displayHeight": 338
+            }
+          ]
+        }
+      ],
+      "initialIndex": 0,
+      "activeIndexSource": "visibility"
+    }
+  ],
+  "buttons": [
+    {
+      "backgroundColor": "rgb(19, 19, 19)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "12px",
+      "padding": "8px 24px 8px 24px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "text": "Get Started"
+    }
+  ],
+  "videos": [],
+  "footer": {
+    "background": "rgb(19, 19, 19)",
+    "textColor": "rgb(255, 255, 255)",
+    "columns": 2,
+    "justifyContent": "space-between",
+    "alignItems": "normal",
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".w-lightbox-inactive, .w-lightbox-inactive": {
+      "opacity": "0"
+    },
+    ".form_input": {
+      "backgroundColor": "rgb(234, 235, 233)"
+    },
+    ".button": {
+      "transform": "scale(0.97)"
+    },
+    ".button.is-form-submit": {
+      "backgroundColor": "rgb(53, 53, 57)"
+    },
+    ".button.is-outline": {
+      "backgroundColor": "var(--bg-color--bg-tertiary)",
+      "color": "var(--brand--white)",
+      "borderColor": "var(--brand--neutral-dark)"
+    },
+    ".button.is-form": {
+      "transform": "scale(1)"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "https://fonts.googleapis.com/",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700",
+    "font-face: webflow-icons"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "nav_links",
+          "text": "Home V.1",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_links",
+          "text": "About V.1",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_links",
+          "text": "Contact V.1",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "nav_dropdown-content",
+          "text": "Home V.1Home V.2Home V.3Featur",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "24px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Home V.1",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Home V.2",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Home V.3",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Features",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "About V.1",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "About V.2",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "About V.3",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Pricing",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Contact V.1",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Contact V.2",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Contact V.3",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Blog",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "tag": "a",
+          "cls": "nav_dropdown-link",
+          "text": "Blog Post",
+          "color": "rgb(78, 78, 78)",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "We are passionate about empowering individuals and businesses to take control of",
+      "elements": [
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "We are passionate about empowe",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "impact_info",
+          "text": "95%Complete customer satisfact",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "95%",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "impact_info",
+          "text": "10+Innovation and valuable ins",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "10+",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "impact_info",
+          "text": "$10mHighly efficient financial",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "$10m",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "impact_info",
+          "text": "50mUsers worldwide, providing ",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "50m",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Make payment easy, simplify your finance",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "text-6xl",
+          "text": "Make payment easy, simplify yo",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "60px"
+        },
+        {
+          "tag": "img",
+          "cls": "img",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "visual_card-top",
+          "text": "10+Years of innovation and val",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(35, 35, 35)",
+          "borderRadius": "20px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "visual_card-bottom",
+          "text": "95%Complete customer satisfact",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(95, 88, 255)",
+          "borderRadius": "20px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Empowering and strengthening your financial success",
+      "elements": [
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "heading-style-h2",
+          "text": "Empowering and strengthening y",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "60px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-layout-grid",
+          "text": "Intuitive user interfaceUser-f",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "img",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Intuitive user interface",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-layout-grid",
+          "text": "Automated processesStreamlined",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Automated processes",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-layout-grid",
+          "text": "Advanced security featuresProt",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Advanced security features",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-layout-grid",
+          "text": "Secure transactionsSafeguard y",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-xl",
+          "text": "Secure transactions",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "20px"
+        },
+        {
+          "tag": "a",
+          "cls": "button",
+          "text": "Learn more",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 19, 19)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "button-background",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(95, 88, 255)",
+          "borderRadius": "1584px",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Explore our standout features designed to deliver exceptional performance and va",
+      "elements": [
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-3xl",
+          "text": "Explore our standout features ",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "features_section",
+          "text": "Real-time analytics",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h3",
+          "text": "Real-time analytics",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "features_section",
+          "text": "Customizable reports",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h3",
+          "text": "Customizable reports",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "features_section",
+          "text": "Mobile accessibility",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h3",
+          "text": "Mobile accessibility",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "features_section",
+          "text": "Enhanced security",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h3",
+          "text": "Enhanced security",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "36px"
+        },
+        {
+          "tag": "div",
+          "cls": "features_image-content",
+          "text": "Real-time analyticsCustomizabl",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "24px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "img",
+          "cls": "img",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "elements": [
+        {
+          "tag": "img",
+          "cls": "img",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "testimoniasl_arrow",
+          "color": "rgb(19, 19, 19)",
+          "border": "1px solid rgb(215, 215, 215)",
+          "borderRadius": "1584px",
+          "fontSize": "40px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "40px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-slider-dot",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "100%",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-slider-dot",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgba(255, 255, 255, 0.4)",
+          "borderRadius": "100%",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Simple & transparent pricing",
+      "elements": [
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "heading-style-h2",
+          "text": "Simple & transparent pricing",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "60px"
+        },
+        {
+          "tag": "div",
+          "cls": "pricing_card",
+          "text": "Starter Plan$50 /monthPerfect ",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(243, 244, 242)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "pricing_card-icon",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 19, 19)",
+          "borderRadius": "1584px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "button",
+          "text": "Get Started",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 19, 19)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "button-background",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(95, 88, 255)",
+          "borderRadius": "1584px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "pricing_card",
+          "text": "Starter Plan$50 /monthPerfect ",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 19, 19)",
+          "borderRadius": "16px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "pricing_card-icon",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "1584px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "a",
+          "cls": "button",
+          "text": "Get Started",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "12px",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "button-background",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgba(95, 88, 255, 0.3)",
+          "borderRadius": "1584px",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Latest insights and trends",
+      "elements": [
+        {
+          "tag": "svg",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "h2",
+          "cls": "heading-style-h2",
+          "text": "Latest insights and trends",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "60px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsThe Ultimate Guide",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "img",
+          "cls": "img",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "div",
+          "cls": "blogs_card-category",
+          "text": "News",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(215, 215, 215)",
+          "borderRadius": "4px",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "div",
+          "cls": "blogs_card-category",
+          "text": "Insights",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(215, 215, 215)",
+          "borderRadius": "4px",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "The Ultimate Guide to Budgetin",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsTop Investment Str",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "Top Investment Strategies for ",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsUnderstanding Cryp",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "Understanding Cryptocurrency: ",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsHow to Reduce Debt",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "How to Reduce Debt and Improve",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsThe Impact of Glob",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "The Impact of Global Events on",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "a",
+          "cls": "blogs_card",
+          "text": "NewsInsightsFinancial Planning",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "h3",
+          "cls": "text-2xl",
+          "text": "Financial Planning for Entrepr",
+          "color": "rgb(19, 19, 19)",
+          "fontSize": "24px"
+        },
+        {
+          "tag": "div",
+          "cls": "blogs_arrow",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(19, 19, 19)",
+          "borderRadius": "1584px",
+          "fontSize": "40px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "40px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-slider-dot",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "100%",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "div",
+          "cls": "w-slider-dot",
+          "color": "rgb(19, 19, 19)",
+          "backgroundColor": "rgba(255, 255, 255, 0.4)",
+          "borderRadius": "100%",
+          "fontSize": "16px"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "Site footer (port into Footer.astro)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "footer_social",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(20, 47, 50)",
+          "border": "1px solid rgb(67, 89, 91)",
+          "borderRadius": "1584px",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Home V.1",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "div",
+          "cls": "link-underline",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "14.08px",
+          "lineWidth": 69,
+          "lineHeight": 1
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Home V.2",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "div",
+          "cls": "link-underline",
+          "color": "rgb(175, 175, 175)",
+          "backgroundColor": "rgb(175, 175, 175)",
+          "fontSize": "14.08px",
+          "lineWidth": 73,
+          "lineHeight": 1
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Home V.3",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Features",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "About us V.1",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "About us V.2",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "About us V.3",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Pricing",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Blogs",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Blog post",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Contact V.1",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Contact V.2",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Contact V.3",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Licensing",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Style Guide",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "a",
+          "cls": "footer_link",
+          "text": "Powered by Webflow",
+          "color": "rgb(175, 175, 175)",
+          "fontSize": "14.08px"
+        },
+        {
+          "tag": "img",
+          "cls": "footer_logo",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px"
+        }
+      ]
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920
+}

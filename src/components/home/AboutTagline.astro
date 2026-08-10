@@ -1,0 +1,34 @@
+---
+import Container from '@/components/Container.astro';
+
+const stats = [
+  { value: '95%', label: 'Complete customer satisfaction' },
+  { value: '10+', label: 'Innovation and valuable insight' },
+  { value: '$10m', label: 'Highly efficient financial strategies' },
+  { value: '50m', label: 'Users worldwide, providing them with' },
+];
+---
+
+<section id="about-clayo" class="bg-surface py-24" data-ps="src/components/home/AboutTagline.astro:3yh5zd">
+  <Container class="max-w-[1176px]">
+    <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 lg:gap-[48px] items-start" data-ps="src/components/home/AboutTagline.astro:q5dbkw">
+      <div class="flex items-center gap-2 text-[16px] font-normal text-[#131313] whitespace-nowrap" data-ps="src/components/home/AboutTagline.astro:q5dbkv">
+        <span class="w-2 h-2 rounded-full bg-[#131313]" data-ps="src/components/home/AboutTagline.astro:6z61ff"></span>
+        About Clayo
+      </div>
+      <div class="flex flex-col gap-12" data-ps="src/components/home/AboutTagline.astro:q5dbkx">
+        <h2 class="text-[36px] font-normal leading-[1.3] tracking-[-2.16px] text-[#131313] max-w-[900px]" data-ps="src/components/home/AboutTagline.astro:piwd1i">
+          We are passionate about empowering individuals and businesses to take control of their finances and achieve their financial goals.
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8" data-ps="src/components/home/AboutTagline.astro:q5dbky">
+          {stats.map(stat => (
+            <div class="flex flex-col gap-2" data-ps="src/components/home/AboutTagline.astro:q5dbkz">
+              <span class="text-[36px] font-normal leading-[1.2] tracking-[-2.16px] text-[#131313]" data-ps="src/components/home/AboutTagline.astro:qzndc5">{stat.value}</span>
+              <span class="text-[16px] text-[#4e4e4e]" data-ps="src/components/home/AboutTagline.astro:io02dg">{stat.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

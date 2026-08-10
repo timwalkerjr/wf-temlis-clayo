@@ -1,0 +1,106 @@
+---
+const testimonials = [
+  {
+    quote: "Clayo has revolutionized how I manage my startup's finances. The platform is intuitive and the insights are incredibly valuable. I can't imagine going back to how we used to do things.",
+    name: "Sarah Thompson",
+    role: "Founder, GreenPath Solutions",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dce_Testimonials-use-one-144.webp",
+  },
+  {
+    quote: "Thanks to Clayo, our team has gained better visibility into our budget and spending trends. The automation features save us hours every week, and the platform just keeps getting better.",
+    name: "David Wilson",
+    role: "CFO, Nova Enterprises",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddd_Testimonials-use-three-144.webp",
+  },
+  {
+    quote: "I've used several financial platforms before, but none as complete and user-friendly as Clayo. It's helped me grow my freelance business with confidence and clarity.",
+    name: "Emily Harris",
+    role: "Freelance Consultant, EH Strategies",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcf_Testimonials-use-two-144.webp",
+  },
+  {
+    quote: "Clayo delivers exactly what modern businesses need — simplicity, power, and reliability. Our financial operations are smoother than ever.",
+    name: "James O'Connor",
+    role: "Managing Director, BrightCore Ltd",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dd0_Testimonials-use-four-144.webp",
+  },
+  {
+    quote: "Clayo gives me peace of mind. Tracking expenses and setting financial goals has never been easier. The design is clean, and everything just works.",
+    name: "Olivia Bennett",
+    role: "Marketing Director, Horizon Brands",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de2_Testimonials-use-five-144.webp",
+  },
+  {
+    quote: "As a small business owner, Clayo has been a lifesaver. It's like having a full finance team in one app. Highly recommend it to anyone looking to scale smartly.",
+    name: "Michael Reed",
+    role: "Owner, Reed & Co.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de3_Testimonials-use-six-144.webp",
+  },
+];
+---
+<section id="testimonials" class="bg-surface">
+  <div class="max-w-[1176px] mx-auto px-6 py-24 text-center relative">
+    <div class="overflow-hidden">
+      <div class="testimonials-track flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
+        {testimonials.map((t) => (
+          <div class="testimonial-slide w-full shrink-0 px-4">
+            <blockquote class="text-[32px] leading-[1.4] font-normal max-w-[900px] mx-auto text-[#131313] mb-8">
+              "{t.quote}"
+            </blockquote>
+            <div class="w-16 h-16 rounded-full mx-auto overflow-hidden border-2 border-white shadow">
+              <img src={t.image} alt={t.name} class="w-full h-full object-cover" />
+            </div>
+            <p class="text-[16px] mt-4 font-normal text-[#131313]">{t.name}</p>
+            <p class="text-[14px] text-[#4e4e4e]">{t.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="flex justify-center gap-2 mt-12">
+      {testimonials.map((_, idx) => (
+        <button
+          type="button"
+          class="testimonial-dot w-2 h-2 rounded-full bg-[#d4d4d4] transition-colors"
+          data-dot-index={idx}
+          aria-label={`Go to slide ${idx + 1}`}
+        />
+      ))}
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (() => {
+    const track = document.querySelector('#testimonials .testimonials-track');
+    const dots = document.querySelectorAll('#testimonials .testimonial-dot');
+    if (!track || dots.length === 0) return;
+    let current = 0;
+    const total = dots.length;
+
+    function update() {
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((dot, i) => {
+        if (i === current) {
+          dot.classList.add('bg-[#131313]');
+          dot.classList.remove('bg-[#d4d4d4]');
+        } else {
+          dot.classList.remove('bg-[#131313]');
+          dot.classList.add('bg-[#d4d4d4]');
+        }
+      });
+    }
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => {
+        current = idx;
+        update();
+      });
+    });
+
+    update();
+    setInterval(() => {
+      current = (current + 1) % total;
+      update();
+    }, 5000);
+  })();
+</script>

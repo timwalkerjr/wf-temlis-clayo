@@ -1,0 +1,19 @@
+---
+const stats = [
+  { value: "10+", label: "Innovation and valuable insight" },
+  { value: "$10m", label: "Highly efficient financial strategies" },
+  { value: "50m", label: "Users worldwide" },
+];
+---
+<section id="about-stats" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {stats.map((s) => (
+        <div class="flex flex-col gap-2 border-t border-border pt-6">
+          <h3 class="text-[36px] font-normal tracking-[-2.16px] leading-[1.2] text-foreground">{s.value}</h3>
+          <p class="text-[16px] text-[#4e4e4e]">{s.label}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,98 @@
+---
+import Container from '@/components/Container.astro';
+
+const plans = [
+  {
+    name: 'Starter Plan',
+    price: '$50',
+    description: 'Perfect for Small Teams, Startups, and Growing Businesses',
+    features: [
+      'Basic financial analytics tools',
+      'Up to 3 user accounts',
+      'Real-time exchange rate monitoring',
+      'Monthly financial reports',
+      'Email support'
+    ],
+    highlight: false
+  },
+  {
+    name: 'Starter Plan',
+    price: '$50',
+    description: 'Perfect for Small Teams, Startups, and Growing Businesses',
+    features: [
+      'Basic financial analytics tools',
+      'Up to 3 user accounts',
+      'Real-time exchange rate monitoring',
+      'Monthly financial reports',
+      'Email support'
+    ],
+    highlight: true
+  },
+  {
+    name: 'Starter Plan',
+    price: '$50',
+    description: 'Perfect for Small Teams, Startups, and Growing Businesses',
+    features: [
+      'Basic financial analytics tools',
+      'Up to 3 user accounts',
+      'Real-time exchange rate monitoring',
+      'Monthly financial reports',
+      'Email support'
+    ],
+    highlight: false
+  }
+];
+---
+
+<section id="pricing" class="bg-background py-24" data-ps="src/components/home/Pricing.astro:3sgkeg">
+  <Container class="max-w-[1176px]">
+    <div class="text-center mb-16" data-ps="src/components/home/Pricing.astro:pxfw29">
+      <div class="flex items-center justify-center gap-2 text-[16px] font-normal text-[#131313] mb-4" data-ps="src/components/home/Pricing.astro:xj797t">
+        <span class="w-2 h-2 rounded-full bg-[#131313]" data-ps="src/components/home/Pricing.astro:3fe82o"></span>
+        Expertise
+      </div>
+      <h2 class="text-[60px] font-normal tracking-[-3.6px] leading-[1.1] mb-6" data-ps="src/components/home/Pricing.astro:l5ho4n">
+        Simple & transparent pricing
+      </h2>
+      <p class="text-[16px] text-[#4e4e4e] max-w-[600px] mx-auto" data-ps="src/components/home/Pricing.astro:hp3gq">
+        Choose a plan that fits your business needs and budget. No hidden fees, no surprises—just straightforward pricing for powerful financial management.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8" data-ps="src/components/home/Pricing.astro:xj797s">
+      {plans.map(plan => (
+        <div class={`rounded-[20px] p-8 flex flex-col justify-between h-full relative overflow-hidden transition-transform hover:scale-[1.02] ${plan.highlight ? 'bg-[#131313] text-white shadow-2xl' : 'bg-[#f3f4f2] text-[#131313]'}`} data-ps="src/components/home/Pricing.astro:xj797r">
+          {plan.highlight && (
+             <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#5f58ff]/20 to-transparent pointer-events-none" data-ps="src/components/home/Pricing.astro:xj797q"></div>
+          )}
+          
+          <div data-ps="src/components/home/Pricing.astro:xj797p">
+            <div class="mb-8" data-ps="src/components/home/Pricing.astro:xj797o">
+              <h3 class="text-[18px] font-medium mb-4" data-ps="src/components/home/Pricing.astro:6h2qx2">{plan.name}</h3>
+              <div class="flex items-baseline gap-1" data-ps="src/components/home/Pricing.astro:xj797n">
+                <span class="text-[48px] font-normal leading-none" data-ps="src/components/home/Pricing.astro:3fe82n">{plan.price}</span>
+                <span class={`text-[16px] ${plan.highlight ? 'text-white/60' : 'text-[#4e4e4e]'}`} data-ps="src/components/home/Pricing.astro:3fe82m">/month</span>
+              </div>
+              <p class={`text-[16px] mt-4 ${plan.highlight ? 'text-white/80' : 'text-[#4e4e4e]'}`} data-ps="src/components/home/Pricing.astro:hp3gr">{plan.description}</p>
+            </div>
+
+            <div class="space-y-4 mb-10" data-ps="src/components/home/Pricing.astro:xj797m">
+              {plan.features.map(feature => (
+                <div class="flex items-center gap-3" data-ps="src/components/home/Pricing.astro:xj797l">
+                  <div class={`w-5 h-5 rounded-full flex items-center justify-center ${plan.highlight ? 'bg-white text-[#131313]' : 'bg-[#131313] text-white'}`} data-ps="src/components/home/Pricing.astro:xj797k">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+                  </div>
+                  <span class="text-[16px]" data-ps="src/components/home/Pricing.astro:3fe82l">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <a href="https://www.temlis.com/" class={`w-full py-4 rounded-[12px] text-center font-medium transition-colors ${plan.highlight ? 'bg-white text-[#131313] hover:bg-white/90' : 'bg-[#131313] text-white hover:bg-[#232323]'}`} data-ps="src/components/home/Pricing.astro:7ln05u">
+            Get Started
+          </a>
+        </div>
+      ))}
+    </div>
+  </Container>
+</section>

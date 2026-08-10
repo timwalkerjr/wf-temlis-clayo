@@ -1,0 +1,21 @@
+---
+const { title = "Discover our journey and what drives us", subtitle = "Founded by data experts, we create cutting-edge SaaS analytics platforms tailored for businesses of all sizes.", mainImage = "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de8_About-one-main-image-1536.webp", dashImage = "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc4_Dashboard-one-image-one-320.webp" } = Astro.props;
+---
+<section id="about-hero" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-[64px] items-center">
+      <div class="lg:col-span-6 flex flex-col">
+        <h1 class="text-[68px] leading-[1.1] font-normal tracking-[-4.08px] text-[#131313]">{title}</h1>
+        <p class="text-[16px] text-[#4e4e4e] mt-6 mb-8 max-w-[480px]">{subtitle}</p>
+        <div class="rounded-[16px] overflow-hidden bg-[#f3f4f2] max-w-[420px] mt-4">
+          <img src={dashImage} alt="Dashboard preview" class="w-full h-auto object-cover" loading="lazy" />
+        </div>
+      </div>
+      <div class="lg:col-span-6">
+        <div class="rounded-[24px] overflow-hidden bg-[#f3f4f2]">
+          <img src={mainImage} alt="About Clayo" class="w-full h-auto object-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

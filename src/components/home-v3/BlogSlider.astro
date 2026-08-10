@@ -1,0 +1,67 @@
+---
+const posts = [
+  {
+    title: "The Ultimate Guide to Budgeting in 2024",
+    preview: "Master the art of budgeting with our comprehensive guide. Learn how to create a budget that works for you.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d00_Blog-one-thumbnail-image-320.webp",
+    href: "/blogs/the-ultimate-guide-to-budgeting-in-2024",
+  },
+  {
+    title: "Top Investment Strategies for Long-Term Growth",
+    preview: "Discover the best investment strategies to build and sustain your wealth over time. From stocks to bonds.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d04_Blog-two-thumbnail-image-640.webp",
+    href: "/blogs/top-investment-strategies-for-long-term-growth",
+  },
+  {
+    title: "Understanding Cryptocurrency: What You Need to Know",
+    preview: "Cryptocurrency continues to make headlines, but what does it mean for your finances? Get a clear understanding of the risks.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d06_Blog-three-thumbnail-image-640.webp",
+    href: "/blogs/understanding-cryptocurrency-what-you-need-to-know",
+  },
+  {
+    title: "How to Reduce Debt and Improve Your Credit Score",
+    preview: "Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d09_Blog-four-thumbnail-image-640.webp",
+    href: "/blogs/how-to-reduce-debt-and-improve-your-credit-score",
+  },
+  {
+    title: "The Impact of Global Events on Your Finances",
+    preview: "Global events can have a significant impact on your finances. Learn how to navigate economic uncertainty.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d0c_Blog-five-thumbnail-image-640.webp",
+    href: "/blogs/the-impact-of-global-events-on-your-finances",
+  },
+  {
+    title: "Financial Planning for Entrepreneurs: A Success Blueprint",
+    preview: "Running a business requires careful financial planning. Discover the key steps to managing your business finances.",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d71_Blog-six-thumbnail-image-320.webp",
+    href: "/blogs/financial-planning-for-entrepreneurs-a-success-blueprint",
+  },
+];
+---
+<section id="blog-slider" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="mb-12">
+      <p class="text-[#131313] font-normal mb-4">• Blog and articles</p>
+      <h2 class="text-[60px] font-normal text-[#131313] tracking-[-3.6px] leading-[1.1] mb-12 mt-4">
+        Latest insights and trends
+      </h2>
+    </div>
+    <div class="overflow-x-auto -mx-6 px-6 pb-4">
+      <div class="flex gap-6" style="min-width: min-content;">
+        {posts.map((post) => (
+          <a href={post.href} class="flex flex-col gap-4 text-left w-[360px] shrink-0 hover-lift">
+            <div class="rounded-[16px] overflow-hidden aspect-video">
+              <img src={post.image} alt={post.title} class="w-full h-full object-cover" />
+            </div>
+            <div class="flex gap-2">
+              <span class="text-[12px] text-[#4e4e4e] bg-[#f3f4f2] px-3 py-1 rounded-full">News</span>
+              <span class="text-[12px] text-[#4e4e4e] bg-[#f3f4f2] px-3 py-1 rounded-full">Insights</span>
+            </div>
+            <h3 class="text-[24px] font-normal leading-[1.2] text-[#131313]">{post.title}</h3>
+            <p class="text-[16px] text-[#4e4e4e] leading-[1.5]">{post.preview}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

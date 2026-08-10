@@ -1,0 +1,98 @@
+---
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const navLinks = [
+  { label: 'Home V.1', href: '/' },
+  { label: 'About V.1', href: '/about/about-v1' },
+  { label: 'Contact V.1', href: '/contact/contact-v1' },
+];
+
+const dropdownLinks = [
+  { label: 'Home V.1', href: '/' },
+  { label: 'Home V.2', href: '/home/home-v2' },
+  { label: 'Home V.3', href: '/home/home-v3' },
+  { label: 'Features', href: '/features' },
+  { label: 'About V.1', href: '/about/about-v1' },
+  { label: 'About V.2', href: '/about/about-v2' },
+  { label: 'About V.3', href: '/about/about-v3' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Contact V.1', href: '/contact/contact-v1' },
+  { label: 'Contact V.2', href: '/contact/contact-v2' },
+  { label: 'Contact V.3', href: '/contact/contact-v3' },
+  { label: 'Blog', href: '/blogs' },
+  { label: 'Blog Post', href: '/blogs/the-ultimate-guide-to-budgeting-in-2024' },
+];
+---
+
+<header id="navbar" class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border/40" data-ps="src/components/Navigation.astro:dt8k87">
+  <nav class="py-[18px]" data-ps="src/components/Navigation.astro:m59h3b">
+    <Container class="flex justify-between items-center max-w-[1176px]">
+      <div class="flex items-center gap-[40px]" data-ps="src/components/Navigation.astro:gqvsdc">
+        <a href="/" class="flex items-center no-underline" data-ps="src/components/Navigation.astro:kd8n5y">
+          <img src="https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0da6_Clayo-icon.svg" alt="Clayo" class="w-[94px] h-[26px] object-contain" data-ps="src/components/Navigation.astro:d4d6a0" />
+        </a>
+
+        <div class="hidden lg:flex gap-[24px] items-center" data-ps="src/components/Navigation.astro:gqvsdd">
+          {navLinks.map((link, __psIdx) => (
+            <a href={link.href} class="text-[16px] font-normal text-[#4e4e4e] no-underline hover:text-foreground transition-colors whitespace-nowrap" data-ps={`src/components/Navigation.astro:7vkjse-${__psIdx}`}>
+              {link.label}
+            </a>
+          ))}
+          
+          <div class="relative group" data-ps="src/components/Navigation.astro:gqvsda">
+            <button class="flex items-center gap-1 text-[16px] font-normal text-[#4e4e4e] hover:text-foreground transition-colors" data-ps="src/components/Navigation.astro:4mvac">
+              More Links
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <div class="absolute top-full left-0 pt-4 hidden group-hover:block" data-ps="src/components/Navigation.astro:gqvsdb">
+              <div class="bg-white shadow-xl rounded-[12px] border border-border p-4 w-[200px]" data-ps="src/components/Navigation.astro:gqvsdc">
+                {dropdownLinks.map(link => (
+                  <a href={link.href} class="block py-2 text-sm text-[#4e4e4e] hover:text-secondary no-underline transition-colors" data-ps="src/components/Navigation.astro:7vkjsf">{link.label}</a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4" data-ps="src/components/Navigation.astro:gqvsdd">
+        <a href="https://www.temlis.com/" class="btn-primary hidden md:flex text-[16px] px-6 py-[10px] rounded-[12px]" data-ps="src/components/Navigation.astro:kd8n5z">
+          Get Started
+        </a>
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="lg:hidden p-2 text-foreground hover:text-secondary transition-colors"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+         data-ps="src/components/Navigation.astro:4mvad">
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </Container>
+  </nav>
+
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-border overflow-hidden" data-ps="src/components/Navigation.astro:gqvsde">
+    <nav class="flex flex-col p-6 gap-4" data-ps="src/components/Navigation.astro:m59h3b">
+      {navLinks.map((link, __psIdx) => (
+        <a href={link.href} class="text-[18px] font-medium text-[#4e4e4e] no-underline hover:text-foreground" data-ps={`src/components/Navigation.astro:kd8n5y-${__psIdx}`}>{link.label}</a>
+      ))}
+      <a href="https://www.temlis.com/" class="btn-primary w-full text-center" data-ps="src/components/Navigation.astro:kd8n5x">Get Started</a>
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  mobileMenuButton?.addEventListener('click', () => {
+    const isOpen = !mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    mobileMenuButton.setAttribute('aria-expanded', !isOpen);
+  });
+</script>

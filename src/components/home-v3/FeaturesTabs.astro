@@ -1,0 +1,91 @@
+---
+const features = [
+  {
+    title: "Real-time analytics",
+    description: "Gain actionable insights with our real-time analytics feature",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dca_Features-one-image-one-320.webp",
+    active: true,
+  },
+  {
+    title: "Customizable reports",
+    description: "Streamline your financial processes with automated workflows",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcb_Features-one-image-two-320.webp",
+    active: false,
+  },
+  {
+    title: "Mobile accessibility",
+    description: "Manage your finances on the go with our mobile-friendly platform",
+    image: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcc_Features-one-image-three-640.webp",
+    active: false,
+  },
+];
+---
+<section id="features-tabs" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="mb-12">
+      <p class="text-[#131313] font-normal mb-4">• Features</p>
+      <h2 class="text-[36px] font-normal text-[#131313] leading-[1.2] max-w-[800px] mt-4 mb-16 tracking-[-2.16px]">
+        Explore our standout features designed to deliver exceptional performance and value, distinguishing us from the competition.
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-[80px] items-center">
+      <div class="flex flex-col">
+        {features.map((feature, idx) => (
+          <button
+            type="button"
+            class={`tab-btn text-left py-6 border-b border-border transition-colors ${idx === 0 ? 'border-t' : ''}`}
+            data-tab-index={idx}
+          >
+            <span class={`block text-[36px] font-normal leading-[1.2] tracking-[-2.16px] ${idx === 0 ? 'text-[#131313]' : 'text-[#afafaf]'}`}>
+              {feature.title}
+            </span>
+            <span class="tab-description block text-[16px] text-[#4e4e4e] mt-2 hidden">
+              {feature.description}
+            </span>
+          </button>
+        ))}
+      </div>
+      <div class="bg-[#f3f4f2] rounded-[24px] p-10 flex items-center justify-center min-h-[450px]">
+        {features.map((feature, idx) => (
+          <img
+            src={feature.image}
+            alt={feature.title}
+            class={`tab-image w-full object-cover rounded-[16px] ${idx === 0 ? '' : 'hidden'}`}
+            data-tab-image-index={idx}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (() => {
+    const tabs = document.querySelectorAll('#features-tabs .tab-btn');
+    const images = document.querySelectorAll('#features-tabs .tab-image');
+    const inactiveColor = 'text-[#afafaf]';
+    const activeColor = 'text-[#131313]';
+
+    tabs.forEach((tab, idx) => {
+      tab.addEventListener('click', () => {
+        tabs.forEach((t, i) => {
+          const span = t.querySelector('span:first-child');
+          if (i === idx) {
+            span.classList.remove(inactiveColor);
+            span.classList.add(activeColor);
+          } else {
+            span.classList.remove(activeColor);
+            span.classList.add(inactiveColor);
+          }
+        });
+        images.forEach((img, i) => {
+          if (i === idx) {
+            img.classList.remove('hidden');
+          } else {
+            img.classList.add('hidden');
+          }
+        });
+      });
+    });
+  })();
+</script>

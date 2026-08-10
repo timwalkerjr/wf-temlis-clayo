@@ -1,0 +1,61 @@
+---
+import Container from '@/components/Container.astro';
+
+const features = [
+  {
+    title: 'Intuitive user interface',
+    description: 'User-friendly design for effortless navigation and usability',
+    image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc4_Dashboard-one-image-one-320.webp'
+  },
+  {
+    title: 'Automated processes',
+    description: 'Streamlined workflows to increase efficiency and reduce manual tasks',
+    image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc5_Dashboard-one-image-two-320.webp'
+  },
+  {
+    title: 'Advanced security features',
+    description: 'Protect your data with top-notch security protocols',
+    image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc6_Dashboard-one-image-three-320.webp'
+  },
+  {
+    title: 'Secure transactions',
+    description: 'Safeguard your purchases with encrypted transactions and fraud detection',
+    image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dc9_Dashboard-one-image-sixe-320.webp'
+  }
+];
+---
+
+<section id="expertise" class="bg-background py-24" data-ps="src/components/home/Expertise.astro:gky4o6">
+  <Container class="max-w-[1176px]">
+    <div class="text-center flex flex-col items-center mb-16" data-ps="src/components/home/Expertise.astro:gye435">
+      <div class="flex items-center gap-2 text-[16px] font-normal text-[#131313] mb-4" data-ps="src/components/home/Expertise.astro:gye434">
+        <span class="w-2 h-2 rounded-full bg-[#131313]" data-ps="src/components/home/Expertise.astro:4vdqjz"></span>
+        Expertise
+      </div>
+      <h2 class="text-[60px] font-normal tracking-[-3.6px] leading-[1.1] max-w-[800px] mb-6" data-ps="src/components/home/Expertise.astro:rdrk50">
+        Empowering and strengthening your financial success
+      </h2>
+      <p class="text-[16px] leading-[1.6] text-[#4e4e4e] max-w-[550px]" data-ps="src/components/home/Expertise.astro:c0x0eg">
+        Our platform provides advanced tools and insights to help you manage, grow, and secure your financial assets.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-ps="src/components/home/Expertise.astro:gye433">
+      {features.map(feature => (
+        <div class="bg-[#f3f4f2] p-8 rounded-[20px] flex flex-col items-start gap-8 group" data-ps="src/components/home/Expertise.astro:gye432">
+          <div class="w-full aspect-[1.2] rounded-[16px] overflow-hidden bg-white/50 flex items-center justify-center p-4" data-ps="src/components/home/Expertise.astro:gye431">
+            <img src={feature.image} alt={feature.title} class="w-full h-full object-contain transition-transform group-hover:scale-105" data-ps="src/components/home/Expertise.astro:o7gz8p" />
+          </div>
+          <div class="flex flex-col gap-2" data-ps="src/components/home/Expertise.astro:gye430">
+            <h3 class="text-[24px] font-normal text-[#131313]" data-ps="src/components/home/Expertise.astro:i718gc">{feature.title}</h3>
+            <p class="text-[16px] text-[#4e4e4e]" data-ps="src/components/home/Expertise.astro:c0x0ef">{feature.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="text-center mt-12" data-ps="src/components/home/Expertise.astro:gye42z">
+      <a href="/features" class="btn-primary" data-ps="src/components/home/Expertise.astro:4wz3oo">Learn more</a>
+    </div>
+  </Container>
+</section>

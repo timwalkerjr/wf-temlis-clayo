@@ -1,0 +1,20 @@
+---
+const features = [
+  { title: "Real-time analytics", desc: "Gain actionable insights with our real-time analytics feature" },
+  { title: "Customizable reports", desc: "Streamline your financial processes with automated workflows" },
+  { title: "Mobile accessibility", desc: "Manage your finances on the go with our mobile-friendly platform" },
+  { title: "Enhanced security", desc: "Protect your sensitive financial data with our state-of-the-art security measures" },
+];
+---
+<section id="about-features" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {features.map((f) => (
+        <div class="bg-[#f3f4f2] p-8 rounded-[20px] flex flex-col justify-between items-start text-left min-h-[200px]">
+          <h3 class="text-[24px] font-normal leading-[1.2] text-[#131313]">{f.title}</h3>
+          <p class="text-[16px] text-[#4e4e4e] mt-4">{f.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

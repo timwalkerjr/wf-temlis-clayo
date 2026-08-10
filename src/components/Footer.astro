@@ -1,0 +1,78 @@
+---
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const footerLinks = [
+  { label: 'Home V.1', href: '/' },
+  { label: 'Home V.2', href: '/home/home-v2' },
+  { label: 'Home V.3', href: '/home/home-v3' },
+  { label: 'Features', href: '/features' },
+  { label: 'About us V.1', href: '/about/about-v1' },
+  { label: 'About us V.2', href: '/about/about-v2' },
+  { label: 'About us V.3', href: '/about/about-v3' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Blogs', href: '/blogs' },
+  { label: 'Blog post', href: '/blogs/the-ultimate-guide-to-budgeting-in-2024' },
+  { label: 'Contact V.1', href: '/contact/contact-v1' },
+  { label: 'Contact V.2', href: '/contact/contact-v2' },
+  { label: 'Contact V.3', href: '/contact/contact-v3' },
+];
+
+const secondaryLinks = [
+  { label: 'Licensing', href: '/template/licensing' },
+  { label: 'Style Guide', href: '/template/style-guide' },
+];
+---
+
+<footer class="bg-[#131313] text-white py-20" data-ps="src/components/Footer.astro:ikmf33">
+  <Container class="max-w-[1176px]">
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-24 mb-16" data-ps="src/components/Footer.astro:p4vf88">
+      <!-- Left Column -->
+      <div class="flex flex-col gap-8" data-ps="src/components/Footer.astro:p4vf89">
+        <p class="text-[18px] text-[#afafaf] leading-relaxed max-w-[400px]" data-ps="src/components/Footer.astro:euol">
+          Easily adapt to changes and scale your operations with our flexible infrastructure, designed to support your business growth.
+        </p>
+      </div>
+
+      <!-- Right Column: Links -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-8" data-ps="src/components/Footer.astro:p4vf8a">
+        <div class="flex flex-col gap-3" data-ps="src/components/Footer.astro:p4vf86">
+          {footerLinks.slice(0, 5).map(link => (
+            <a href={link.href} class="text-[16px] text-[#afafaf] no-underline hover:text-white transition-colors" data-ps="src/components/Footer.astro:7gqc0i">{link.label}</a>
+          ))}
+        </div>
+        <div class="flex flex-col gap-3" data-ps="src/components/Footer.astro:p4vf87">
+          {footerLinks.slice(5, 10).map(link => (
+            <a href={link.href} class="text-[16px] text-[#afafaf] no-underline hover:text-white transition-colors" data-ps="src/components/Footer.astro:7gqc0j">{link.label}</a>
+          ))}
+        </div>
+        <div class="flex flex-col gap-3" data-ps="src/components/Footer.astro:p4vf88">
+          {footerLinks.slice(10, 13).map(link => (
+            <a href={link.href} class="text-[16px] text-[#afafaf] no-underline hover:text-white transition-colors" data-ps="src/components/Footer.astro:7gqc0k">{link.label}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Massive Wordmark -->
+    <div class="mb-16" data-ps="src/components/Footer.astro:p4vf89">
+      <h2 class="text-[15vw] leading-[1] font-normal text-white uppercase text-center select-none opacity-100" data-ps="src/components/Footer.astro:f0091f">
+        Clayo
+      </h2>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6" data-ps="src/components/Footer.astro:p4vf8b">
+      <div class="flex gap-8" data-ps="src/components/Footer.astro:p4vf8a">
+        {secondaryLinks.map(link => (
+          <a href={link.href} class="text-[14px] text-[#afafaf] no-underline hover:text-white transition-colors" data-ps="src/components/Footer.astro:7gqc0l">{link.label}</a>
+        ))}
+      </div>
+      
+      <div class="flex items-center gap-2 text-[14px] text-[#afafaf]" data-ps="src/components/Footer.astro:p4vf8b">
+        <span data-ps="src/components/Footer.astro:hzwfpi">Powered by Webflow</span>
+        <img src="https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ddf_Clayo-footer-logo.svg" alt="" class="h-4" data-ps="src/components/Footer.astro:4qdjf5" />
+      </div>
+    </div>
+  </Container>
+</footer>

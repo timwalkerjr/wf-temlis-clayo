@@ -1,0 +1,29 @@
+---
+const { columns = 3 } = Astro.props;
+const team = [
+  { name: "Sophia Stone", role: "Chief Financial Officer", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0de9_Team-user-one-640.webp" },
+  { name: "Liam Lark", role: "Director of Engineering", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dea_Team-user-two-320.webp" },
+  { name: "Emma Elm", role: "Senior UX Designer", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0deb_Team-user-three-640.webp" },
+  { name: "Noah Nugent", role: "Lead Data Scientist", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dec_Team-user-four-320.webp" },
+  { name: "Ava Aspen", role: "Product Marketing Manager", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0ded_Team-user-five-320.webp" },
+  { name: "Ethan Eagle", role: "Head of Customer Success", img: "https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0df1_Team-user-six-640.webp" },
+];
+const colsClass = columns === 6 ? "grid-cols-2 md:grid-cols-3 lg:grid-cols-6" : "grid-cols-2 md:grid-cols-3";
+---
+<section id="about-team" class="bg-background">
+  <div class="max-w-[1176px] mx-auto px-6 py-24">
+    <div class={`grid gap-6 ${colsClass}`}>
+      {team.map((m) => (
+        <div class="flex flex-col gap-4">
+          <div class="rounded-[20px] overflow-hidden bg-[#f3f4f2] aspect-[3/4]">
+            <img src={m.img} alt={m.name} class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div>
+            <h4 class="text-[18px] font-normal text-[#131313]">{m.name}</h4>
+            <p class="text-[14px] text-[#4e4e4e] mt-1">{m.role}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

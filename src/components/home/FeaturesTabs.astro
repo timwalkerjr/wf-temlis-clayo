@@ -1,0 +1,72 @@
+---
+import Container from '@/components/Container.astro';
+
+const tabs = [
+  { label: 'Real-time analytics', id: 'analytics', image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dca_Features-one-image-one-320.webp' },
+  { label: 'Customizable reports', id: 'reports', image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcb_Features-one-image-two-320.webp' },
+  { label: 'Mobile accessibility', id: 'mobile', image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcc_Features-one-image-three-640.webp' },
+  { label: 'Enhanced security', id: 'security', image: 'https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dcd_Features-one-image-four-320.webp' },
+];
+---
+
+<section id="features-tabs" class="bg-background py-24 overflow-hidden" data-ps="src/components/home/FeaturesTabs.astro:shs33a">
+  <Container class="max-w-[1176px]">
+    <div class="mb-20" data-ps="src/components/home/FeaturesTabs.astro:vucver">
+      <div class="flex items-center gap-2 text-[16px] font-normal text-[#131313] mb-4" data-ps="src/components/home/FeaturesTabs.astro:vucves">
+        <span class="w-2 h-2 rounded-full bg-[#131313]" data-ps="src/components/home/FeaturesTabs.astro:zicggp"></span>
+        Features
+      </div>
+      <h2 class="text-[36px] font-normal leading-[1.2] text-[#131313] max-w-[800px]" data-ps="src/components/home/FeaturesTabs.astro:doo2g8">
+        Explore our standout features designed to deliver exceptional performance and value, distinguishing us from the competition.
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-[80px] items-center" data-ps="src/components/home/FeaturesTabs.astro:vucvet">
+      <!-- Tab List -->
+      <div class="flex flex-col border-t border-border" data-ps="src/components/home/FeaturesTabs.astro:vucveu">
+        {tabs.map((tab, index) => (
+          <button 
+            class={`tab-trigger text-left py-8 border-b border-border text-[36px] font-normal transition-colors ${index === 0 ? 'text-[#131313]' : 'text-[#afafaf]'}`}
+            data-image={tab.image}
+            data-id={tab.id}
+           data-ps={`src/components/home/FeaturesTabs.astro:2axd0a-${index}`}>
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      <!-- Tab Content -->
+      <div class="bg-[#f3f4f2] rounded-[24px] p-10 flex items-center justify-center min-h-[450px]" data-ps="src/components/home/FeaturesTabs.astro:vucvev">
+        <img 
+          id="tab-content-image"
+          src={tabs[0].image}
+          alt="Feature illustration" 
+          class="w-full h-auto object-contain transition-opacity duration-300" data-ps="src/components/home/FeaturesTabs.astro:1z3wrh" />
+      </div>
+    </div>
+  </Container>
+</section>
+
+<script is:inline>
+  const tabTriggers = document.querySelectorAll('.tab-trigger');
+  const contentImage = document.getElementById('tab-content-image');
+
+  tabTriggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      // Update UI
+      tabTriggers.forEach(t => {
+        t.classList.add('text-[#afafaf]');
+        t.classList.remove('text-[#131313]');
+      });
+      trigger.classList.add('text-[#131313]');
+      trigger.classList.remove('text-[#afafaf]');
+
+      // Update Image with fade effect
+      contentImage.style.opacity = '0';
+      setTimeout(() => {
+        contentImage.src = trigger.dataset.image;
+        contentImage.style.opacity = '1';
+      }, 200);
+    });
+  });
+</script>

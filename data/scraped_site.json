@@ -1,0 +1,187 @@
+{
+  "success": true,
+  "url": "https://clayo-syncflowai-schema.webflow.io/",
+  "structured": {
+    "title": "Clayo - Webflow Ecommerce website template",
+    "description": "Clayo is a modern Webflow template. Customize it to match your brand and create a unique, professional experience in minutes.",
+    "url": "https://clayo-syncflowai-schema.webflow.io/",
+    "imageCount": 42,
+    "branding": {
+      "colors": {
+        "primary": "#5F58FF",
+        "secondary": "#0158FF",
+        "accent": "#3898EC",
+        "background": "#FFFFFF",
+        "textPrimary": "#131313",
+        "link": "#3898EC"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Inter",
+          "heading": "Inter"
+        },
+        "fontStacks": {
+          "heading": [
+            "Inter",
+            "sans-serif"
+          ],
+          "body": [
+            "Inter",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Inter",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "68px",
+          "h2": "36px",
+          "body": "16px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "16px"
+      },
+      "logo": "https://cdn.prod.website-files.com/6a3c3ed1c7bf81e0610b0b6a/6a3c3ed5c7bf81e0610b0da6_Clayo%20icon.svg",
+      "favicon": "https://cdn.prod.website-files.com/665687d713145087b3ce1703/665a4535765980c07e93225b_Group%202942.png",
+      "faviconCdn": "https://pagesmith-cdn.com/ededff4c/images/665a4535765980c07e93225b_Group-2942-32.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "Clayo - Webflow Ecommerce website template",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/about/about-v1/",
+        "label": "About V1",
+        "slug": "about-about-v1",
+        "scraped": false
+      },
+      {
+        "path": "/contact/contact-v1/",
+        "label": "Contact V1",
+        "slug": "contact-contact-v1",
+        "scraped": false
+      },
+      {
+        "path": "/home/home-v2/",
+        "label": "Home V2",
+        "slug": "home-home-v2",
+        "scraped": false
+      },
+      {
+        "path": "/home/home-v3/",
+        "label": "Home V3",
+        "slug": "home-home-v3",
+        "scraped": false
+      },
+      {
+        "path": "/features/",
+        "label": "Features",
+        "slug": "features",
+        "scraped": false
+      },
+      {
+        "path": "/about/about-v2/",
+        "label": "About V2",
+        "slug": "about-about-v2",
+        "scraped": false
+      },
+      {
+        "path": "/about/about-v3/",
+        "label": "About V3",
+        "slug": "about-about-v3",
+        "scraped": false
+      },
+      {
+        "path": "/pricing/",
+        "label": "Pricing",
+        "slug": "pricing",
+        "scraped": false
+      },
+      {
+        "path": "/contact/contact-v2/",
+        "label": "Contact V2",
+        "slug": "contact-contact-v2",
+        "scraped": false
+      },
+      {
+        "path": "/contact/contact-v3/",
+        "label": "Contact V3",
+        "slug": "contact-contact-v3",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/",
+        "label": "Blogs",
+        "slug": "blogs",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/the-ultimate-guide-to-budgeting-in-2024/",
+        "label": "The Ultimate Guide To Budgeting In 2024",
+        "slug": "blogs-the-ultimate-guide-to-budgeting-in-2024",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/top-investment-strategies-for-long-term-growth/",
+        "label": "Top Investment Strategies For Long Term Growth",
+        "slug": "blogs-top-investment-strategies-for-long-term-growth",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/understanding-cryptocurrency-what-you-need-to-know/",
+        "label": "Understanding Cryptocurrency What You Need To Know",
+        "slug": "blogs-understanding-cryptocurrency-what-you-need-to-know",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/how-to-reduce-debt-and-improve-your-credit-score/",
+        "label": "How To Reduce Debt And Improve Your Credit Score",
+        "slug": "blogs-how-to-reduce-debt-and-improve-your-credit-score",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/the-impact-of-global-events-on-your-finances/",
+        "label": "The Impact Of Global Events On Your Finances",
+        "slug": "blogs-the-impact-of-global-events-on-your-finances",
+        "scraped": false
+      },
+      {
+        "path": "/blogs/financial-planning-for-entrepreneurs-a-success-blueprint/",
+        "label": "Financial Planning For Entrepreneurs A Success Blueprint",
+        "slug": "blogs-financial-planning-for-entrepreneurs-a-success-blueprint",
+        "scraped": false
+      },
+      {
+        "path": "/template/licensing/",
+        "label": "Licensing",
+        "slug": "template-licensing",
+        "scraped": false
+      },
+      {
+        "path": "/template/style-guide/",
+        "label": "Style Guide",
+        "slug": "template-style-guide",
+        "scraped": false
+      }
+    ]
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-08-10T05:45:35.547Z",
+    "homepageContentLength": 11174,
+    "imageCount": 42,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 19,
+    "pagesScraped": 1
+  }
+}

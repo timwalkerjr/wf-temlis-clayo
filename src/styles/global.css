@@ -1,0 +1,134 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@plugin "@tailwindcss/typography";
+
+:root {
+  /* Layout */
+  --nav-height: 70px;
+
+  /* Typography — Inter is the primary and heading font */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Page — Light surface */
+  --color-background: hsl(0, 0%, 100%);
+  --color-foreground: hsl(0, 0%, 7%);
+  --color-muted-foreground: hsl(0, 0%, 31%);
+  --color-border: hsl(0, 0%, 84%);
+  --color-surface: hsl(80, 2%, 95%);
+
+  /* Primary brand (Black) */
+  --color-primary: hsl(0, 0%, 7%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-primary-hover: hsl(0, 0%, 17%);
+
+  /* Secondary brand (Indigo) */
+  --color-secondary: hsl(242, 100%, 67%);
+  --color-secondary-foreground: hsl(0, 0%, 100%);
+  --color-secondary-hover: hsl(242, 100%, 60%);
+
+  /* Dark sections */
+  --color-dark-background: hsl(0, 0%, 7%);
+  --color-dark-foreground: hsl(0, 0%, 100%);
+  --color-dark-muted-foreground: hsl(0, 0%, 69%);
+  --color-dark-border: hsl(184, 15%, 31%);
+
+  /* Status */
+  --color-success: hsl(142 76% 36%);
+  --color-error: hsl(0 72% 51%);
+  --color-warning: hsl(38 92% 50%);
+
+  /* Heading type scale — Clayo Specific */
+  --text-h1: clamp(2.5rem, 1rem + 5vw, 4.25rem); /* ~40 → 68px */
+  --text-h2: clamp(2rem, 1.2rem + 3vw, 3.75rem); /* ~32 → 60px */
+  --text-h3: clamp(1.5rem, 1.25rem + 1vw, 2.25rem); /* ~24 → 36px */
+}
+
+@theme {
+  --font-sans: var(--font-sans);
+
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-surface: var(--color-surface);
+
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-primary-hover: var(--color-primary-hover);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-secondary-hover: var(--color-secondary-hover);
+
+  --color-dark-background: var(--color-dark-background);
+  --color-dark-foreground: var(--color-dark-foreground);
+  --color-dark-muted-foreground: var(--color-dark-muted-foreground);
+  --color-dark-border: var(--color-dark-border);
+  --color-dark: var(--color-dark-background);
+  --color-dark-muted: var(--color-dark-muted-foreground);
+
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+  --color-warning: var(--color-warning);
+
+  --text-h1: var(--text-h1);
+  --text-h1--line-height: 1.1;
+  --text-h2: var(--text-h2);
+  --text-h2--line-height: 1.2;
+  --text-h3: var(--text-h3);
+  --text-h3--line-height: 1.2;
+
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+}
+
+html, body {
+  overflow-x: clip;
+}
+
+html {
+  scroll-padding-top: var(--nav-height);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+.prose {
+  --tw-prose-body: var(--color-foreground);
+  --tw-prose-headings: var(--color-foreground);
+  --tw-prose-links: var(--color-secondary);
+  --tw-prose-bold: var(--color-foreground);
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+  hyphens: manual;
+}
+
+p, li {
+  text-wrap: pretty;
+  hyphens: auto;
+}
+
+/* Button Base Style */
+.btn-primary {
+  background-color: #131313;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: #232323;
+  transform: translateY(-1px);
+}
