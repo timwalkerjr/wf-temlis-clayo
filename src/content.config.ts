@@ -11,6 +11,8 @@ const blog = defineCollection({
 
     // Optional basic fields
     author: z.string().optional(),
+    authorRole: z.string().optional(),
+    authorAvatar: z.string().optional(),
     image: z.string().optional(),
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),

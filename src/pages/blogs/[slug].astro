@@ -1,0 +1,109 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import BlogPostHero from '@/components/blog/BlogPostHero.astro';
+import BlogAuthor from '@/components/blog/BlogAuthor.astro';
+import BlogRelatedPosts from '@/components/blog/BlogRelatedPosts.astro';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post, posts },
+  }));
+}
+
+const { post, posts } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+
+// Only pass a hero image when we actually have one — the component's own
+// default takes over otherwise, so we never emit an <img> with an empty src.
+const heroProps = d.image ? { image: d.image, title: d.title } : { title: d.title };
+
+const hasAuthorCard = Boolean(d.author && d.authorAvatar);
+
+const related = posts
+  .filter((p) => p.id !== post.id && p.data.image)
+  .slice(0, 3)
+  .map((p) => ({
+    title: p.data.title,
+    excerpt: p.data.description,
+    image: p.data.image as string,
+    tags: p.data.tags ?? [],
+    href: `/blogs/${p.id}`,
+  }));
+---
+<BaseLayout title={`${d.title} | Clayo`} description={d.description} image={d.image}>
+  <BlogPostHero {...heroProps} />
+
+  <section class="bg-background py-12">
+    <Container class="max-w-[900px]">
+      <div class="article-body">
+        <Content />
+      </div>
+    </Container>
+  </section>
+
+  {hasAuthorCard && (
+    <BlogAuthor
+      tags={d.tags ?? []}
+      author={{ name: d.author!, role: d.authorRole ?? '', avatar: d.authorAvatar! }}
+    />
+  )}
+
+  {related.length > 0 && <BlogRelatedPosts posts={related} />}
+</BaseLayout>
+
+<style is:global>
+  .article-body p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #4e4e4e;
+    margin-bottom: 1.5rem;
+  }
+  .article-body p:first-of-type {
+    color: #131313;
+    margin-bottom: 3rem;
+  }
+  .article-body h2 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    line-height: 1.3;
+    color: #131313;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .article-body h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    line-height: 1.3;
+    color: #131313;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .article-body ul,
+  .article-body ol {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #4e4e4e;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .article-body ul { list-style: disc; }
+  .article-body ol { list-style: decimal; }
+  .article-body li { margin-bottom: 0.5rem; }
+  .article-body a { color: inherit; text-decoration: underline; }
+  .article-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin: 2rem 0;
+  }
+</style>
