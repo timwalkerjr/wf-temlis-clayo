@@ -1,17 +1,18 @@
 ---
-title: "Financial Planning for Entrepreneurs: A Success Blueprint"
-description: A step-by-step blueprint for entrepreneurs covering cash-flow projections, separating personal and business finances, and planning funding phases.
-pubDate: 2026-08-05T09:00:00.000Z
+title: 'Financial Planning for Entrepreneurs: A Success Blueprint'
+description: >-
+  A step-by-step blueprint for entrepreneurs covering cash-flow projections,
+  separating personal and business finances, and planning funding phases.
+pubDate: '2026-08-05'
 author: Angela Davis
-authorRole: CFO, Startup Success Partners
-authorAvatar: https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0dbf_Blog-six-author-image-144.webp
-image: https://pagesmith-cdn.com/ededff4c/images/6a3c3ed5c7bf81e0610b0d97_Blog-six-main-image-768.webp
+authorRole: 'CFO, Startup Success Partners'
+authorAvatar: /images/tim-walker.jpg
+image: /images/tim-walker.png
 category: Insights
 tags:
   - News
   - Insights
 ---
-
 In today's competitive startup landscape, entrepreneurs must master financial planning to fuel sustainable growth. From cash-flow forecasting to funding milestones, a clear blueprint helps you navigate capital needs and operational demands. Entrepreneurial finance frameworks have become indispensable for scaling wisely.
 
 ## Establish Clear Cash-Flow Projections
