@@ -35,7 +35,7 @@ const related = posts
     excerpt: p.data.description,
     image: p.data.image as string,
     tags: p.data.tags ?? [],
-    href: `/articles/${p.id}`,
+    href: `/articles/${p.id}/`,
   }));
 ---
 <BaseLayout title={`${d.title} | Clayo`} description={d.description} image={d.image}>
